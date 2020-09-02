@@ -19,7 +19,7 @@ import { FaMoonIcon, FaSunIcon } from './icons'
 export const Header = props => {
   const showBuyButton = useBreakpointValue([false, true, true])
   const [scrollY, setScrollY] = useState(0)
-  const { colorMode, toggleColorMode } = useColorMode()
+  const { toggleColorMode } = useColorMode()
   const SwitchIcon = useColorModeValue(FaMoonIcon, FaSunIcon)
 
   useEffect(() => {
@@ -50,7 +50,7 @@ export const Header = props => {
         WebkitBackdropFilter: 'blur(5px)'
       }}
       {...props}
-      >
+    >
       <Link
         href='/'
         nextRoute='/'
