@@ -1,0 +1,62 @@
+{
+  "name": "speakeasyjs.com",
+  "description": "The JavaScript meetup for 🥼 mad science, 🧙‍♂️ hacking, and 🧪 experiments",
+  "version": "1.0.0",
+  "author": {
+    "name": "WebTorrent LLC",
+    "email": "feross@webtorrent.io",
+    "url": "https://webtorrent.io"
+  },
+  "bugs": {
+    "url": "https://github.com/feross/speakeasyjs.com/issues"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "^1.0.0-rc.3",
+    "@chakra-ui/theme": "^1.0.0-rc.3",
+    "debug": "^4.1.1",
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^9.5.3",
+    "babel-eslint": "^10.1.0",
+    "standard": "*"
+  },
+  "homepage": "https://github.com/feross/speakeasyjs.com",
+  "keywords": [
+    "speakeasy js"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/feross/speakeasyjs.com.git"
+  },
+  "scripts": {
+    "test": "standard",
+    "build": "next build",
+    "start": "next start",
+    "watch": "next dev --port 4000"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "global": [
+      "globalThis"
+    ]
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/feross"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/feross"
+    },
+    {
+      "type": "consulting",
+      "url": "https://feross.org/support"
+    }
+  ]
+}

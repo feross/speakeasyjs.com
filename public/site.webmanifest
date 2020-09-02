@@ -1,0 +1,22 @@
+{
+  "background_color": "#ffffff",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "sizes": "192x192",
+      "src": "/android-chrome-192x192.png",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "sizes": "512x512",
+      "src": "/android-chrome-512x512.png",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "name": "Speakeasy JS",
+  "short_name": "Speakeasy JS",
+  "start_url": "/?utm_source=homescreen",
+  "theme_color": "#e53e3e"
+}
