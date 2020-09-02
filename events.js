@@ -4,7 +4,7 @@ module.exports = [
     schedule: [
       {
         time: '4:00',
-        title: 'Build a WebRTC app in 10 minutes',
+        title: 'WebRTC in the Real World: A Survival Guide',
         name: 'Feross Aboukhadijeh',
         twitter: 'feross'
       },
