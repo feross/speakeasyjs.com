@@ -1,11 +1,12 @@
 import {
-  // Box,
+  Box,
   createIcon
 } from '@chakra-ui/core'
-// import * as MdIcon from 'react-icons/md'
+import { FaMoon, FaSun } from 'react-icons/fa'
 
-// Material Icons
-// export const MdMoreHorizIcon = props => <Box as={MdIcon.MdMoreHoriz} {...props} />
+// Icons
+export const FaMoonIcon = props => <Box as={FaMoon} {...props} />
+export const FaSunIcon = props => <Box as={FaSun} {...props} />
 
 // Custom Icons
 
