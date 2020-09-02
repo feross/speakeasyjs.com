@@ -129,7 +129,7 @@ const EventItem = ({ item }) => {
       </Box>
 
       <Stack
-        maxWidth='sm'
+        maxWidth='md'
       >
         <Box textAlign={['center', 'left']}>
           <Text as='strong'>{item.title}</Text>

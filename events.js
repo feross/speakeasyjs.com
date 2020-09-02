@@ -10,9 +10,9 @@ module.exports = [
       },
       {
         time: '4:15',
-        title: 'WebRTC in the Trenches – A Survival Guide',
-        name: 'Feross Aboukhadijeh',
-        twitter: 'feross'
+        title: 'Muschema – Relativistic serialization for web games',
+        name: 'Mikola Lysenko',
+        twitter: 'MikolaLysenko'
       },
       {
         time: '4:30',
@@ -36,3 +36,10 @@ module.exports = [
     ]
   }
 ]
+
+// {
+//   time: '4:15',
+//   title: 'WebRTC in the Trenches – A Survival Guide',
+//   name: 'Feross Aboukhadijeh',
+//   twitter: 'feross'
+// },
