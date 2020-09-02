@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import {
   Flex,
   Image,
@@ -12,6 +13,17 @@ import { siteName, siteImage } from '../config'
 
 export const Header = props => {
   const showBuyButton = useBreakpointValue([false, true, true])
+  const [scrollY, setScrollY] = useState(0)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY)
+    }
+    window.addEventListener('scroll', handleScroll)
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
 
   return (
     <Flex
@@ -24,11 +36,11 @@ export const Header = props => {
       right={0}
       justify={['center', 'space-between']}
       align='center'
-      backgroundColor='rgba(255, 255, 255, 0.5)'
-      borderBottom='1px solid'
-      borderColor='gray.200'
+      borderBottom={scrollY > 0 ? '1px solid' : 'none'}
+      borderColor='blackAlpha.300'
       style={{
-        backdropFilter: 'blur(5px)'
+        backdropFilter: 'blur(5px)',
+        WebkitBackdropFilter: 'blur(5px)'
       }}
       {...props}
     >

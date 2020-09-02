@@ -21,9 +21,11 @@ export const Footer = props => {
       left={0}
       right={0}
       justify='center'
-      backgroundColor='rgba(255, 255, 255, 0.5)'
+      borderTop='1px solid'
+      borderColor='blackAlpha.300'
       style={{
-        backdropFilter: 'blur(5px)'
+        backdropFilter: 'blur(5px)',
+        WebkitBackdropFilter: 'blur(5px)'
       }}
       {...props}
     >

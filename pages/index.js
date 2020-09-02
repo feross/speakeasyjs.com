@@ -5,7 +5,8 @@ import {
   Heading,
   Stack,
   Text,
-  Wrap
+  Wrap,
+  useColorModeValue
 } from '@chakra-ui/core'
 
 import { ButtonLink } from '../components/ButtonLink'
@@ -14,6 +15,7 @@ import { Footer } from '../components/Footer'
 import { Link } from '../components/Link'
 
 import { colorScheme } from '../theme'
+import events from '../events'
 
 const HomePage = ({ events }) => {
   return (
@@ -112,88 +114,55 @@ const Event = ({ event, ...rest }) => (
   </Stack>
 )
 
-const EventItem = ({ item }) => (
-  <Stack direction={['column', 'row']}>
-    <Box
-      color='gray.500'
-      mr={[0, 6]}
-      mb={[4, 0]}
-      textAlign={['center', 'right']}
-    >
-      {item.time} PM
-    </Box>
+const EventItem = ({ item }) => {
+  const grayColor = useColorModeValue('blackAlpha.700', 'whiteAlpha.700')
 
-    <Stack
-      maxWidth='sm'
-    >
-      <Box textAlign={['center', 'left']}>
-        <Text as='strong'>{item.title}</Text>
+  return (
+    <Stack direction={['column', 'row']}>
+      <Box
+        color={grayColor}
+        mr={[0, 6]}
+        mb={[4, 0]}
+        textAlign={['center', 'right']}
+      >
+        {item.time} PM
       </Box>
 
-      {item.twitter && item.name &&
-        <>
-          <Link href={`https://twitter.com/${item.twitter}`} showExternalIcon={false}>
-            <Stack
-              direction='row'
-              justify={['center', 'flex-start']}
-              align='center'
-            >
-              <Avatar
-                name={item.name}
-                src={`https://twivatar.glitch.me/${item.twitter}`}
-                size='sm'
-              />
-              <Box fontSize='md' color='gray.700'>
-                {item.name}
-              </Box>
-            </Stack>
-          </Link>
-        </>}
+      <Stack
+        maxWidth='sm'
+      >
+        <Box textAlign={['center', 'left']}>
+          <Text as='strong'>{item.title}</Text>
+        </Box>
+
+        {item.twitter && item.name &&
+          <>
+            <Link href={`https://twitter.com/${item.twitter}`} showExternalIcon={false}>
+              <Stack
+                direction='row'
+                justify={['center', 'flex-start']}
+                align='center'
+              >
+                <Avatar
+                  name={item.name}
+                  src={`https://twivatar.glitch.me/${item.twitter}`}
+                  size='sm'
+                />
+                <Box fontSize='md' color={grayColor}>
+                  {item.name}
+                </Box>
+              </Stack>
+            </Link>
+          </>}
+      </Stack>
     </Stack>
-  </Stack>
-)
+  )
+}
 
 export async function getServerSideProps (ctx) {
   return {
     props: {
-      events: [
-        {
-          date: 'September 4',
-          schedule: [
-            {
-              time: '4:00',
-              title: 'Build a WebRTC app in 10 minutes',
-              name: 'Feross Aboukhadijeh',
-              twitter: 'feross'
-            },
-            {
-              time: '4:15',
-              title: 'ZDAG – a compressed block format',
-              name: 'Mikeal Rogers',
-              twitter: 'mikeal'
-            },
-            {
-              time: '4:30',
-              title: 'Social Happy Hour'
-            }
-          ]
-        },
-        {
-          date: 'September 11',
-          schedule: [
-            {
-              time: '4:00',
-              title: 'Hyperbee – An append-only Btree running on a Hypercore',
-              name: 'Mathius Buus',
-              twitter: 'mafintosh'
-            },
-            {
-              time: '4:30',
-              title: 'Social Happy Hour'
-            }
-          ]
-        }
-      ]
+      events
     }
   }
 }
