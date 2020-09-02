@@ -46,12 +46,12 @@ function MyApp ({ Component, pageProps }) {
         <meta property='og:title' content={title} />
         <meta property='og:description' content={siteDesc} />
         <meta property='og:url' content={origin} />
-        <meta property='og:image' content={origin + socialImage} />
+        <meta property='og:image' content={socialImage} />
         <meta property='og:site_name' content={siteName} />
         <meta property='og:type' content='website' />
 
         <meta name='twitter:title' content={title} />
-        <meta name='twitter:image' content={origin + socialImage} />
+        <meta name='twitter:image' content={socialImage} />
         <meta name='twitter:site' content={siteTwitter} />
         <meta name='twitter:card' content='summary_large_image' />
 
