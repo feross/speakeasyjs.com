@@ -14,6 +14,7 @@
     "@chakra-ui/core": "^1.0.0-rc.3",
     "@chakra-ui/theme": "^1.0.0-rc.3",
     "debug": "^4.1.1",
+    "feross": "^2.0.0",
     "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
@@ -28,7 +29,7 @@
     "speakeasy js"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "./server/index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/feross/speakeasyjs.com.git"
@@ -36,8 +37,8 @@
   "scripts": {
     "test": "standard",
     "build": "next build",
-    "start": "next start",
-    "watch": "next dev --port 4000"
+    "start": "NODE_ENV=production node .",
+    "watch": "DEBUG=speakeasyjs.com:* nodemon . --watch server"
   },
   "standard": {
     "parser": "babel-eslint",

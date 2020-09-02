@@ -140,7 +140,7 @@ const EventItem = ({ item }) => (
             >
               <Avatar
                 name={item.name}
-                src={`http://twivatar.glitch.me/${item.twitter}`}
+                src={`https://twivatar.glitch.me/${item.twitter}`}
                 size='sm'
               />
               <Box fontSize='md' color='gray.700'>
