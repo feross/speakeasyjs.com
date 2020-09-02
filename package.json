@@ -13,6 +13,7 @@
   "dependencies": {
     "@chakra-ui/core": "^1.0.0-rc.3",
     "@chakra-ui/theme": "^1.0.0-rc.3",
+    "@next/bundle-analyzer": "^9.5.3",
     "debug": "^4.1.1",
     "feross": "^2.0.0",
     "next": "^9.5.3",
@@ -20,7 +21,6 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^9.5.3",
     "babel-eslint": "^10.1.0",
     "standard": "*"
   },
