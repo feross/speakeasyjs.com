@@ -1,6 +1,6 @@
 // const { rollbar } = require('../secret')
 const {
-  createServer,
+  createServer
   // createRollbar,
   // getRollbarHandler
 } = require('feross')
