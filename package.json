@@ -24,28 +24,6 @@
     "babel-eslint": "^10.1.0",
     "standard": "*"
   },
-  "homepage": "https://github.com/feross/speakeasyjs.com",
-  "keywords": [
-    "speakeasy js"
-  ],
-  "license": "MIT",
-  "main": "./server/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/feross/speakeasyjs.com.git"
-  },
-  "scripts": {
-    "test": "standard",
-    "build": "next build",
-    "start": "NODE_ENV=production node .",
-    "watch": "DEBUG=speakeasyjs.com:* nodemon . --watch server"
-  },
-  "standard": {
-    "parser": "babel-eslint",
-    "global": [
-      "globalThis"
-    ]
-  },
   "funding": [
     {
       "type": "github",
@@ -59,5 +37,28 @@
       "type": "consulting",
       "url": "https://feross.org/support"
     }
-  ]
+  ],
+  "homepage": "https://github.com/feross/speakeasyjs.com",
+  "keywords": [
+    "speakeasy js"
+  ],
+  "license": "MIT",
+  "main": "./server/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/feross/speakeasyjs.com.git"
+  },
+  "scripts": {
+    "build": "next build",
+    "deploy": "npm run test && ./tools/trigger-deploy.sh",
+    "start": "NODE_ENV=production node .",
+    "test": "standard",
+    "watch": "DEBUG=speakeasyjs.com:* nodemon . --watch server"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "global": [
+      "globalThis"
+    ]
+  }
 }
