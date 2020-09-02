@@ -4,15 +4,15 @@ module.exports = [
     schedule: [
       {
         time: '4:00',
-        title: 'WebRTC in the Real World: A Survival Guide',
-        name: 'Feross Aboukhadijeh',
-        twitter: 'feross'
+        title: 'ZDAG – A JSON++ compressor',
+        name: 'Mikeal Rogers',
+        twitter: 'mikeal'
       },
       {
         time: '4:15',
-        title: 'ZDAG – a compressed block format',
-        name: 'Mikeal Rogers',
-        twitter: 'mikeal'
+        title: 'WebRTC in the Trenches – A Survival Guide',
+        name: 'Feross Aboukhadijeh',
+        twitter: 'feross'
       },
       {
         time: '4:30',
