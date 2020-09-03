@@ -15,7 +15,7 @@ init()
 async function init () {
   const nextApp = next({ dev: !isProd })
 
-  await nextApp.prepare()
+  nextApp.prepare()
 
   const {
     app,
