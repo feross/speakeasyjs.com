@@ -12,7 +12,7 @@ class MyDocument extends Document {
       <Html lang='en'>
         <Head />
         <body>
-          <ColorModeScript defaultMode='system' />
+          <ColorModeScript initialValue='system' />
           <Main />
           <NextScript />
         </body>
