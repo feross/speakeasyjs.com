@@ -4,12 +4,13 @@ import {
 } from '@chakra-ui/core'
 
 import { ButtonLink } from './ButtonLink'
+
 import { colorScheme } from '../theme'
 
 export const Footer = props => {
-  const showFooter = useBreakpointValue([true, false])
+  const isMobile = useBreakpointValue([true, false])
 
-  if (!showFooter) return null
+  if (!isMobile) return null
 
   return (
     <Flex

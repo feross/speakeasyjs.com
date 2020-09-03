@@ -6,12 +6,14 @@ import {
   Stack,
   Text,
   Wrap,
-  useColorModeValue
+  useColorModeValue,
+  useBreakpointValue
 } from '@chakra-ui/core'
 
 import { ButtonLink } from '../components/ButtonLink'
-import { Header } from '../components/Header'
+import { ColorModeButton } from '../components/ColorModeButton'
 import { Footer } from '../components/Footer'
+import { Header } from '../components/Header'
 import { Link } from '../components/Link'
 
 import { colorScheme } from '../theme'
@@ -74,7 +76,7 @@ const HomePage = ({ events }) => {
 
           <Stack spacing={8} align='center'>
             <Heading as='h1' size='lg' textAlign='center'>
-              Keep these URLs on the DL
+              Ssh... don't tell anyone
             </Heading>
 
             <Wrap justify='center'>
@@ -88,14 +90,15 @@ const HomePage = ({ events }) => {
                 href='https://calendar.google.com/calendar/ical/1sk2ko9dj2sa73l7m1nqnubrv4%40group.calendar.google.com/public/basic.ics'
                 size='md'
               >
-              Subscribe via iCal
+              Download .ical file
               </ButtonLink>
               <ButtonLink
                 href='https://twitter.com/Speakeasy_JS'
                 size='md'
               >
-                Follow @Speakeasy_JS on Twitter
+                Follow @Speakeasy_JS
               </ButtonLink>
+              <ColorModeButton />
             </Wrap>
           </Stack>
         </Stack>

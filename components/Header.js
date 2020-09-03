@@ -1,26 +1,20 @@
 import { useEffect, useState } from 'react'
 import {
-  IconButton,
   Flex,
   Heading,
   Image,
-  Stack,
-  useBreakpointValue,
-  useColorMode,
-  useColorModeValue
+  useBreakpointValue
 } from '@chakra-ui/core'
 
-import { ButtonLink } from '../components/ButtonLink'
-import { Link } from '../components/Link'
+import { ButtonLink } from './ButtonLink'
+import { Link } from './Link'
+
 import { colorScheme } from '../theme'
 import { siteName, siteImage } from '../config'
-import { FaMoonIcon, FaSunIcon } from './icons'
 
 export const Header = props => {
-  const showBuyButton = useBreakpointValue([false, true, true])
+  const isMobile = useBreakpointValue([true, false])
   const [scrollY, setScrollY] = useState(0)
-  const { toggleColorMode } = useColorMode()
-  const SwitchIcon = useColorModeValue(FaMoonIcon, FaSunIcon)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,8 +30,7 @@ export const Header = props => {
     <Flex
       position='fixed'
       zIndex={10}
-      px={8}
-      py={4}
+      p={4}
       top={0}
       left={0}
       right={0}
@@ -58,7 +51,7 @@ export const Header = props => {
           textDecoration: 'none'
         }}
       >
-        <Flex align='center'>
+        <Flex align='center' pl={2}>
           <Image
             src={siteImage}
             alt={siteName}
@@ -74,22 +67,15 @@ export const Header = props => {
         </Flex>
       </Link>
 
-      <Stack direction='row' spacing={4}>
-        {showBuyButton &&
-          <ButtonLink
-            colorScheme={colorScheme}
-            size='lg'
-            href='/buy'
-          >
-            Get a free ticket
-          </ButtonLink>}
-
-        <IconButton
+      {!isMobile &&
+        <ButtonLink
+          colorScheme={colorScheme}
           size='lg'
-          icon={<SwitchIcon />}
-          onClick={toggleColorMode}
-        />
-      </Stack>
+          href='/buy'
+        >
+          Get a free ticket
+        </ButtonLink>}
+
     </Flex>
   )
 }
