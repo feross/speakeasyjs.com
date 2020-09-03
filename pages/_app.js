@@ -1,6 +1,6 @@
 // import { useEffect } from 'react'
 import Head from 'next/head'
-import { CSSReset, ChakraProvider } from '@chakra-ui/core'
+import { ChakraProvider } from '@chakra-ui/core'
 
 import { siteColor, theme } from '../theme'
 import { track } from '../lib/analytics'
@@ -24,8 +24,7 @@ function MyApp ({ Component, pageProps }) {
   else title += ` - ${siteName}`
 
   return (
-    <ChakraProvider theme={theme}>
-      <CSSReset />
+    <ChakraProvider resetCSS theme={theme}>
       <Component {...pageProps} />
       <Head>
         <title>{title}</title>
