@@ -6,8 +6,7 @@ import {
   Stack,
   Text,
   Wrap,
-  useColorModeValue,
-  useBreakpointValue
+  useColorModeValue
 } from '@chakra-ui/core'
 
 import { ButtonLink } from '../components/ButtonLink'
