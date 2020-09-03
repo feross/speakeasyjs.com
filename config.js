@@ -37,4 +37,4 @@ exports.socialImage = `${origin}/social-share.png`
 exports.tokenAnalytics = 'UA-3898076-28'
 
 // Root path of project
-exports.rootPath = process.env.WWW_ROOT + '/speakeasyjs.com'
+exports.rootPath = process.cwd()
