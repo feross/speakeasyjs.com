@@ -1,14 +1,15 @@
-// const { rollbar } = require('../secret')
 const {
   createServer
   // createRollbar,
   // getRollbarHandler
 } = require('feross')
 
+// const { rollbar } = require('../secret')
+const { host, port, isProd } = require('../config')
+
 // createRollbar({ accessToken: rollbar.accessToken })
 
 const next = require('next')
-const { host, port, isProd } = require('../config')
 
 init()
 
@@ -21,7 +22,8 @@ async function init () {
     app,
     httpServer
   } = createServer({
-    host
+    host,
+    isProd
   })
 
   app.use(nextApp.getRequestHandler())
