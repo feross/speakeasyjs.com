@@ -12,7 +12,7 @@ import { Link } from './Link'
 import { colorScheme } from '../theme'
 import { siteName, siteImage } from '../config'
 
-export const Header = props => {
+export const Header = ({ showBuyButton = true, ...rest }) => {
   const isMobile = useBreakpointValue([true, false])
   const [scrollY, setScrollY] = useState(0)
 
@@ -42,7 +42,7 @@ export const Header = props => {
         backdropFilter: 'blur(5px)',
         WebkitBackdropFilter: 'blur(5px)'
       }}
-      {...props}
+      {...rest}
     >
       <Link
         href='/'
@@ -67,7 +67,7 @@ export const Header = props => {
         </Flex>
       </Link>
 
-      {!isMobile &&
+      {showBuyButton && !isMobile &&
         <ButtonLink
           colorScheme={colorScheme}
           size='lg'
