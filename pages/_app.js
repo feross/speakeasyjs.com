@@ -18,10 +18,15 @@ import {
 globalThis.theme = theme
 
 function MyApp ({ Component, pageProps }) {
-  let { title } = pageProps
+  let {
+    title,
+    description
+  } = pageProps
 
   if (title == null) title = `${siteName} - ${siteDesc}`
   else title += ` - ${siteName}`
+
+  if (description == null) description = siteDesc
 
   return (
     <ChakraProvider resetCSS theme={theme}>
@@ -29,7 +34,7 @@ function MyApp ({ Component, pageProps }) {
       <Head>
         <title>{title}</title>
         <meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover' />
-        <meta name='description' content={siteDesc} />
+        <meta name='description' content={description} />
         <link rel='canonical' href={origin} />
 
         <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
@@ -43,7 +48,7 @@ function MyApp ({ Component, pageProps }) {
         <meta name='theme-color' content={siteColor} />
 
         <meta property='og:title' content={title} />
-        <meta property='og:description' content={siteDesc} />
+        <meta property='og:description' content={description} />
         <meta property='og:url' content={origin} />
         <meta property='og:image' content={socialImage} />
         <meta property='og:site_name' content={siteName} />

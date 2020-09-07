@@ -56,7 +56,9 @@ export default TalksPage
 export async function getServerSideProps (ctx) {
   return {
     props: {
-      events
+      events,
+      title: 'Past Talks',
+      description: 'Watch past talks from Speakeasy JS'
     }
   }
 }
