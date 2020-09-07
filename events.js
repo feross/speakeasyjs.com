@@ -1,6 +1,7 @@
 module.exports = [
   {
-    date: 'September 4',
+    date: '2020-09-04',
+    youtube: 'GrcWFOLoGi4',
     schedule: [
       {
         time: '4:00',
@@ -21,7 +22,7 @@ module.exports = [
     ]
   },
   {
-    date: 'September 11',
+    date: '2020-09-11',
     schedule: [
       {
         time: '4:00',

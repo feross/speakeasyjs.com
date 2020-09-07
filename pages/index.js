@@ -1,24 +1,41 @@
 import {
-  Avatar,
   Box,
   Container,
   Heading,
   Stack,
   Text,
-  Wrap,
-  useColorModeValue
+  Wrap
 } from '@chakra-ui/core'
+import { format, parse } from 'date-fns'
 
 import { ButtonLink } from '../components/ButtonLink'
 import { ColorModeButton } from '../components/ColorModeButton'
+import { Event } from '../components/Event'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
-import { Link } from '../components/Link'
 
 import { colorScheme } from '../theme'
 import events from '../events'
 
 const HomePage = ({ events }) => {
+  events = events.slice(0)
+    .map(event => {
+      event.dateObj = parse(event.date, 'yyyy-MM-dd', new Date())
+      return event
+    })
+    .filter(event => event.dateObj >= Date.now())
+
+  const currentEvent = events?.[0]
+  const currentEventDate = currentEvent && format(currentEvent.dateObj, 'LLLL d')
+
+  const nextEvent = events?.[1]
+  const nextEventDate = nextEvent && format(nextEvent.dateObj, 'LLLL d')
+
+  events
+    .map(event => {
+      delete event.dateObj
+    })
+
   return (
     <Box
       px={4}
@@ -45,15 +62,16 @@ const HomePage = ({ events }) => {
             </Text>
           </Stack>
 
-          <Stack spacing={8} align='center'>
-            <Heading as='h1' size='lg' textAlign='center'>
-              Here's what's going down <Text as='em'><Text as='u'>this Friday</Text></Text> ({events[0].date})
-            </Heading>
+          {currentEvent &&
+            <Stack spacing={8} align='center'>
+              <Heading as='h1' size='lg' textAlign='center'>
+                Here's what's going down <Text as='em'><Text as='u'>this Friday</Text></Text> ({currentEventDate})
+              </Heading>
 
-            <Event
-              event={events[0]}
-            />
-          </Stack>
+              <Event
+                event={currentEvent}
+              />
+            </Stack>}
 
           <ButtonLink
             colorScheme={colorScheme}
@@ -63,15 +81,16 @@ const HomePage = ({ events }) => {
             If you dig it, get a ticket
           </ButtonLink>
 
-          <Stack spacing={8} align='center'>
-            <Heading as='h1' size='lg' textAlign='center'>
-              And here's a sneak peak at <Text as='em'><Text as='u'>next Friday</Text></Text> ({events[1].date})
-            </Heading>
+          {nextEvent &&
+            <Stack spacing={8} align='center'>
+              <Heading as='h1' size='lg' textAlign='center'>
+                And here's a sneak peak at <Text as='em'><Text as='u'>next Friday</Text></Text> ({nextEventDate})
+              </Heading>
 
-            <Event
-              event={events[1]}
-            />
-          </Stack>
+              <Event
+                event={nextEvent}
+              />
+            </Stack>}
 
           <Stack spacing={8} align='center'>
             <Heading as='h1' size='lg' textAlign='center'>
@@ -83,13 +102,13 @@ const HomePage = ({ events }) => {
                 href='https://calendar.google.com/calendar?cid=MXNrMmtvOWRqMnNhNzNsN20xbnFudWJydjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'
                 size='md'
               >
-              Add to Google Calendar
+                Add to Google Calendar
               </ButtonLink>
               <ButtonLink
                 href='https://calendar.google.com/calendar/ical/1sk2ko9dj2sa73l7m1nqnubrv4%40group.calendar.google.com/public/basic.ics'
                 size='md'
               >
-              Download .ical file
+                Download .ical file
               </ButtonLink>
               <ButtonLink
                 href='https://twitter.com/Speakeasy_JS'
@@ -107,59 +126,6 @@ const HomePage = ({ events }) => {
 }
 
 export default HomePage
-
-const Event = ({ event, ...rest }) => (
-  <Stack spacing={8} {...rest}>
-    {event.schedule.map(item => (
-      <EventItem key={item.time} item={item} />
-    ))}
-  </Stack>
-)
-
-const EventItem = ({ item }) => {
-  const grayColor = useColorModeValue('blackAlpha.700', 'whiteAlpha.700')
-
-  return (
-    <Stack direction={['column', 'row']}>
-      <Box
-        color={grayColor}
-        mr={[0, 6]}
-        mb={[4, 0]}
-        textAlign={['center', 'right']}
-      >
-        {item.time} PM
-      </Box>
-
-      <Stack
-        maxWidth='md'
-      >
-        <Box textAlign={['center', 'left']}>
-          <Text as='strong'>{item.title}</Text>
-        </Box>
-
-        {item.twitter && item.name &&
-          <>
-            <Link href={`https://twitter.com/${item.twitter}`} showExternalIcon={false}>
-              <Stack
-                direction='row'
-                justify={['center', 'flex-start']}
-                align='center'
-              >
-                <Avatar
-                  name={item.name}
-                  src={`https://twivatar.glitch.me/${item.twitter}`}
-                  size='sm'
-                />
-                <Box fontSize='md' color={grayColor}>
-                  {item.name}
-                </Box>
-              </Stack>
-            </Link>
-          </>}
-      </Stack>
-    </Stack>
-  )
-}
 
 export async function getServerSideProps (ctx) {
   return {

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import {
+  Stack,
   Flex,
   Heading,
   Image,
@@ -67,14 +68,23 @@ export const Header = ({ showBuyButton = true, ...rest }) => {
         </Flex>
       </Link>
 
-      {showBuyButton && !isMobile &&
+      <Stack direction='row'>
         <ButtonLink
-          colorScheme={colorScheme}
           size='lg'
-          href='/buy'
+          href='/talks'
+          variant='ghost'
         >
-          Get a free ticket
-        </ButtonLink>}
+          Past Talks
+        </ButtonLink>
+        {showBuyButton && !isMobile &&
+          <ButtonLink
+            colorScheme={colorScheme}
+            size='lg'
+            href='/buy'
+          >
+            Get a free ticket
+          </ButtonLink>}
+      </Stack>
 
     </Flex>
   )
