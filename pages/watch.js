@@ -15,7 +15,7 @@ const WatchPage = ({ events }) => {
     ; (async () => {
       await loadScript('https://embed.twitch.tv/embed/v1.js')
       window.twitch = new Twitch.Embed('twitch-embed', {
-        width: 1024,
+        width: '100%',
         height: 600,
         channel: 'speakeasyjs'
       })
@@ -30,10 +30,21 @@ const WatchPage = ({ events }) => {
       <Header showBuyButton={false} />
 
       <Container maxWidth='lg'>
-        <div id='twitch-embed' />
+        <Box
+          id='twitch-embed'
+        />
       </Container>
     </Box>
   )
 }
 
 export default WatchPage
+
+export async function getServerSideProps (ctx) {
+  return {
+    props: {
+      title: 'Watch Now',
+      description: 'Watch Speakeasy JS now'
+    }
+  }
+}
