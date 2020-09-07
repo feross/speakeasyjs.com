@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "standard",
+    "standard-jsx"
+  ],
+  "globals": {
+    "globalThis": "readonly",
+    "fetch": "readonly"
+  }
+}
