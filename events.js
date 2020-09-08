@@ -35,38 +35,39 @@ module.exports = [
         title: 'Social Happy Hour'
       }
     ]
-  },
-  {
-    date: '2020-09-18',
-    schedule: [
-      {
-        time: '4:00',
-        title: 'The Deno security model',
-        name: 'Ryan Dahl',
-        site: 'https://tinyclouds.org/'
-      },
-      {
-        time: '4:30',
-        title: 'Social Happy Hour'
-      }
-    ]
-  },
-  {
-    date: '2020-09-25',
-    schedule: [
-      {
-        time: '4:00',
-        title: 'TBD',
-        name: 'Rod Vagg',
-        twitter: 'rvagg'
-      },
-      {
-        time: '4:30',
-        title: 'Social Happy Hour'
-      }
-    ]
   }
 ]
+
+// {
+//   date: '2020-09-18',
+//     schedule: [
+//       {
+//         time: '4:00',
+//         title: 'The Deno security model',
+//         name: 'Ryan Dahl',
+//         site: 'https://tinyclouds.org/'
+//       },
+//       {
+//         time: '4:30',
+//         title: 'Social Happy Hour'
+//       }
+//     ]
+// },
+// {
+//   date: '2020-09-25',
+//     schedule: [
+//       {
+//         time: '4:00',
+//         title: 'TBD',
+//         name: 'Rod Vagg',
+//         twitter: 'rvagg'
+//       },
+//       {
+//         time: '4:30',
+//         title: 'Social Happy Hour'
+//       }
+//     ]
+// }
 
 // {
 //   time: '4:15',
