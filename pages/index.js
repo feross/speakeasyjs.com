@@ -19,7 +19,8 @@ import events from '../events'
 import { parseDate } from '../lib/date'
 
 const HomePage = ({ events }) => {
-  events = events.slice(0)
+  events = events
+    .slice(0)
     .filter(event => parseDate(event.date) >= Date.now())
 
   const currentEvent = events?.[0]
