@@ -4,7 +4,7 @@ import {
   SimpleGrid,
   Heading
 } from '@chakra-ui/core'
-import { format, parse } from 'date-fns'
+import { format } from 'date-fns'
 
 import { Header } from '../components/Header'
 import { Event } from '../components/Event'
