@@ -41,6 +41,21 @@ module.exports = [
         title: 'Social Happy Hour'
       }
     ]
+  },
+  {
+    date: '2020-09-18',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'Acid - a new compile-to-WASM language',
+        name: 'Dominic Tarr',
+        twitter: 'dominictarr'
+      },
+      {
+        time: '4:30',
+        title: 'Social Happy Hour'
+      }
+    ]
   }
 ]
 
