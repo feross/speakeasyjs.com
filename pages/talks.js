@@ -10,6 +10,7 @@ import { Header } from '../components/Header'
 import { Event } from '../components/Event'
 
 import events from '../events'
+import { parseDate } from '../lib/date'
 
 const TalksPage = ({ events }) => {
   return (
@@ -23,12 +24,13 @@ const TalksPage = ({ events }) => {
       <Container maxWidth='xl'>
 
         {events
+          .slice(0)
           .reverse()
-          .filter(event => new Date(event.date) < Date.now())
+          .filter(event => parseDate(event.date) < Date.now())
           .map(event => (
             <Box key={event.date} mb={[10, 10, 16]}>
               <Heading as='h1' size='lg' textAlign='center' mb={8}>
-                {format(parse(event.date, 'yyyy-MM-dd', new Date()), 'EEEE LLLL d, yyyy')}
+                {format(parseDate(event.date), 'EEEE LLLL d, yyyy')}
               </Heading>
               <SimpleGrid columns={[1, 1, 2]} spacing={8}>
                 <Event

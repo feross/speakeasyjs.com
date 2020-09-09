@@ -6,7 +6,7 @@ import {
   Text,
   Wrap
 } from '@chakra-ui/core'
-import { format, parse } from 'date-fns'
+import { format } from 'date-fns'
 
 import { ButtonLink } from '../components/ButtonLink'
 import { ColorModeButton } from '../components/ColorModeButton'
@@ -16,25 +16,17 @@ import { Header } from '../components/Header'
 
 import { colorScheme } from '../theme'
 import events from '../events'
+import { parseDate } from '../lib/date'
 
 const HomePage = ({ events }) => {
   events = events.slice(0)
-    .map(event => {
-      event.dateObj = parse(event.date, 'yyyy-MM-dd', new Date())
-      return event
-    })
-    .filter(event => event.dateObj >= Date.now())
+    .filter(event => parseDate(event.date) >= Date.now())
 
   const currentEvent = events?.[0]
-  const currentEventDate = currentEvent && format(currentEvent.dateObj, 'LLLL d')
+  const currentEventDate = currentEvent && format(parseDate(currentEvent.date), 'LLLL d')
 
   const nextEvent = events?.[1]
-  const nextEventDate = nextEvent && format(nextEvent.dateObj, 'LLLL d')
-
-  events
-    .map(event => {
-      delete event.dateObj
-    })
+  const nextEventDate = nextEvent && format(parseDate(nextEvent.date), 'LLLL d')
 
   return (
     <Box
