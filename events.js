@@ -32,7 +32,7 @@ module.exports = [
       },
       {
         time: '4:20',
-        title: 'Building a "global indexer" for P2P sites',
+        title: 'Indexing P2P Sites with Hyperbee"',
         name: 'Andrew Osheroff',
         twitter: 'andrewosh'
       },
