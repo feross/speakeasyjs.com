@@ -31,7 +31,13 @@ module.exports = [
         twitter: 'mafintosh'
       },
       {
-        time: '4:30',
+        time: '4:20',
+        title: 'Building a "global indexer" for P2P sites',
+        name: 'Andrew Osheroff',
+        twitter: 'andrewosh'
+      },
+      {
+        time: '4:40',
         title: 'Social Happy Hour'
       }
     ]
@@ -39,7 +45,7 @@ module.exports = [
 ]
 
 // {
-//   date: '2020-09-18',
+//   date: '2020-09-25',
 //     schedule: [
 //       {
 //         time: '4:00',
