@@ -10,13 +10,13 @@ module.exports = [
         twitter: 'mikeal'
       },
       {
-        time: '4:15',
+        time: '4:20',
         title: 'Muschema – Relativistic serialization for web games',
         name: 'Mikola Lysenko',
         twitter: 'MikolaLysenko'
       },
       {
-        time: '4:30',
+        time: '4:40',
         title: 'Social Happy Hour'
       }
     ]
