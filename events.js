@@ -62,15 +62,15 @@ module.exports = [
     schedule: [
       {
         time: '4:00',
-        title: 'The Deno security model',
-        name: 'Ryan Dahl',
-        site: 'https://tinyclouds.org/'
-      },
-      {
-        time: '4:20',
         title: 'Content-addressed distributed data structures',
         name: 'Rod Vagg',
         twitter: 'rvagg'
+      },
+      {
+        time: '4:20',
+        title: 'The Deno security model',
+        name: 'Ryan Dahl',
+        site: 'https://tinyclouds.org/'
       },
       {
         time: '4:40',
