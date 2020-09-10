@@ -47,7 +47,7 @@ module.exports = [
     schedule: [
       {
         time: '4:00',
-        title: 'Acid removes rust - a new fun-oriented programming language',
+        title: 'Acid - a new fun-oriented programming language',
         name: 'Dominic Tarr',
         twitter: 'dominictarr'
       },
