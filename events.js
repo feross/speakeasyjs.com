@@ -67,7 +67,13 @@ module.exports = [
         site: 'https://tinyclouds.org/'
       },
       {
-        time: '4:30',
+        time: '4:20',
+        title: 'Content-addressed distributed data structures',
+        name: 'Rod Vagg',
+        twitter: 'rvagg'
+      },
+      {
+        time: '4:40',
         title: 'Social Happy Hour'
       }
     ]
@@ -94,22 +100,6 @@ module.exports = [
     ]
   }
 ]
-
-// {
-//   date: '2020-09-25',
-//   schedule: [
-//     {
-//       time: '4:00',
-//       title: 'TBD',
-//       name: 'Rod Vagg',
-//       twitter: 'rvagg'
-//     },
-//     {
-//       time: '4:30',
-//       title: 'Social Happy Hour'
-//     }
-//   ]
-// }
 
 // {
 //   time: '4:15',
