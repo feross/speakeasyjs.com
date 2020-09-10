@@ -72,6 +72,26 @@ module.exports = [
       }
     ]
   },
+  {
+    date: '2020-10-02',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'Live Musical Performance 🎶',
+        name: 'Matt McKegg',
+        twitter: 'NOISEISSUES'
+      },
+      {
+        time: '4:15',
+        title: 'TBD',
+        name: 'TBD',
+        twitter: 'NOISEISSUES'
+      },
+      {
+        time: '4:30',
+        title: 'Social Happy Hour'
+      }
+    ]
   }
 ]
 
