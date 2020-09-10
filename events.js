@@ -97,20 +97,18 @@ module.exports = [
 
 // {
 //   date: '2020-09-25',
-// {
-//   date: '2020-09-25',
-//     schedule: [
-//       {
-//         time: '4:00',
-//         title: 'TBD',
-//         name: 'Rod Vagg',
-//         twitter: 'rvagg'
-//       },
-//       {
-//         time: '4:30',
-//         title: 'Social Happy Hour'
-//       }
-//     ]
+//   schedule: [
+//     {
+//       time: '4:00',
+//       title: 'TBD',
+//       name: 'Rod Vagg',
+//       twitter: 'rvagg'
+//     },
+//     {
+//       time: '4:30',
+//       title: 'Social Happy Hour'
+//     }
+//   ]
 // }
 
 // {
