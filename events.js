@@ -113,6 +113,21 @@ module.exports = [
         title: 'Social Happy Hour'
       }
     ]
+  },
+  {
+    date: '2020-10-16',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'Building a NTSC/VHS simulator',
+        name: 'James Halliday (substack)',
+        twitter: 'substack'
+      },
+      {
+        time: '4:30',
+        title: 'Social Happy Hour'
+      }
+    ]
   }
 ]
 
