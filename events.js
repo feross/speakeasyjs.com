@@ -88,10 +88,19 @@ module.exports = [
         twitter: 'NOISEISSUES'
       },
       {
-        time: '4:15',
-        title: 'TBD',
-        name: 'TBD',
-        twitter: 'NOISEISSUES'
+        time: '4:30',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2020-10-09',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'Snowpack - The faster frontend build tool',
+        name: 'Fred K Schott',
+        twitter: 'FredKSchott'
       },
       {
         time: '4:30',
