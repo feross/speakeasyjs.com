@@ -52,6 +52,12 @@ module.exports = [
         twitter: 'dominictarr'
       },
       {
+        time: '4:20',
+        title: 'A new reactive programming language',
+        name: 'John Hiesey',
+        twitter: 'jhiesey'
+      },
+      {
         time: '4:30',
         title: 'Social Happy Hour'
       }
