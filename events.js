@@ -58,7 +58,7 @@ module.exports = [
         twitter: 'jhiesey'
       },
       {
-        time: '4:30',
+        time: '4:40',
         title: 'Social Happy Hour'
       }
     ]
