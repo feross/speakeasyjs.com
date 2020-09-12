@@ -53,7 +53,7 @@ module.exports = [
       },
       {
         time: '4:20',
-        title: 'A new reactive programming language',
+        title: 'Secret talk title',
         name: 'John Hiesey',
         twitter: 'jhiesey'
       },
