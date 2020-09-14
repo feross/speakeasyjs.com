@@ -5,13 +5,13 @@ module.exports = [
     schedule: [
       {
         time: '4:00',
-        title: 'ZDAG – A JSON++ compressor',
+        title: 'ZDAG: A JSON++ compressor',
         name: 'Mikeal Rogers',
         twitter: 'mikeal'
       },
       {
         time: '4:20',
-        title: 'Muschema – Relativistic serialization for web games',
+        title: 'Muschema: Relativistic serialization for web games',
         name: 'Mikola Lysenko',
         twitter: 'MikolaLysenko'
       },
@@ -26,7 +26,7 @@ module.exports = [
     schedule: [
       {
         time: '4:00',
-        title: 'Hyperbee – An append-only Btree running on a Hypercore',
+        title: 'Hyperbee: An append-only Btree running on a Hypercore',
         name: 'Mathius Buus',
         twitter: 'mafintosh'
       },
@@ -47,7 +47,7 @@ module.exports = [
     schedule: [
       {
         time: '4:00',
-        title: 'Acid - a new fun-oriented programming language',
+        title: 'Acid: a new fun-oriented programming language',
         name: 'Dominic Tarr',
         twitter: 'dominictarr'
       },
@@ -104,7 +104,7 @@ module.exports = [
     schedule: [
       {
         time: '4:00',
-        title: 'Snowpack - The faster frontend build tool',
+        title: 'Snowpack: The faster frontend build tool',
         name: 'Fred K Schott',
         twitter: 'FredKSchott'
       },
