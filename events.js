@@ -53,7 +53,7 @@ module.exports = [
       },
       {
         time: '4:20',
-        title: 'Secret talk title',
+        title: 'Xylem: a semi-pure, functional reactive language',
         name: 'John Hiesey',
         twitter: 'jhiesey'
       },
