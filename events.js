@@ -23,6 +23,7 @@ module.exports = [
   },
   {
     date: '2020-09-11',
+    youtube: 'CXGDvjAXP8g',
     schedule: [
       {
         time: '4:00',
