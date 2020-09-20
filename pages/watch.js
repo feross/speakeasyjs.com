@@ -8,11 +8,15 @@ import {
   Container
 } from '@chakra-ui/core'
 
+import { Event } from '../components/Event'
 import { Header } from '../components/Header'
+
+import events from '../events'
+import { parseDate } from '../lib/date'
 
 const WatchPage = ({ events }) => {
   useEffect(() => {
-    ; (async () => {
+    ;(async () => {
       await loadScript('https://embed.twitch.tv/embed/v1.js')
       window.twitch = new Twitch.Embed('twitch-embed', {
         width: '100%',
@@ -20,7 +24,17 @@ const WatchPage = ({ events }) => {
         channel: 'speakeasyjs'
       })
     })()
+    return () => {
+      document.querySelector('#twitch-embed').innerHTML = ''
+    }
   }, [])
+
+  events = events
+    .slice(0)
+    .filter(event => parseDate(event.date) > Date.now())
+
+  const currentEvent = events?.[0]
+
   return (
     <Box
       px={4}
@@ -33,6 +47,10 @@ const WatchPage = ({ events }) => {
         <Box
           id='twitch-embed'
         />
+        <Event
+          event={currentEvent}
+          mt={10}
+        />
       </Container>
     </Box>
   )
@@ -44,7 +62,8 @@ export async function getServerSideProps (ctx) {
   return {
     props: {
       title: 'Watch Now',
-      description: 'Watch Speakeasy JS now'
+      description: 'Watch Speakeasy JS now',
+      events
     }
   }
 }
