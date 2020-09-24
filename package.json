@@ -15,7 +15,7 @@
     "@chakra-ui/theme": "^1.0.0-rc.3",
     "@next/bundle-analyzer": "^9.5.3",
     "date-fns": "^2.16.1",
-    "debug": "^4.1.1",
+    "debug": "^4.2.0",
     "feross": "^2.0.1",
     "load-script2": "^2.0.5",
     "next": "^9.5.3",
