@@ -5,13 +5,17 @@ import loadScript from 'load-script2'
 
 import {
   Box,
-  Container
+  Container,
+  Heading,
+  Stack
 } from '@chakra-ui/core'
 
+import { ButtonLink } from '../components/ButtonLink'
 import { Event } from '../components/Event'
 import { Header } from '../components/Header'
 
 import events from '../events'
+import { colorScheme } from '../theme'
 import { parseDate, currentDate } from '../lib/date'
 
 const WatchPage = ({ events }) => {
@@ -44,13 +48,29 @@ const WatchPage = ({ events }) => {
       <Header showBuyButton={false} />
 
       <Container maxWidth='lg'>
-        <Box
-          id='twitch-embed'
-        />
-        <Event
-          event={currentEvent}
-          mt={10}
-        />
+        <Stack spacing={16} align='center'>
+          <Heading as='h1' size='xl' mt={[0, 4, 6]}>
+            You've found it. Here's what's going down.
+          </Heading>
+
+          <Event
+            event={currentEvent}
+          />
+
+          <Box
+            id='twitch-embed'
+            width='full'
+          />
+
+          <ButtonLink
+            colorScheme={colorScheme}
+            size='lg'
+            href='/buy'
+          >
+            Get a ticket for next week's event
+          </ButtonLink>
+        </Stack>
+
       </Container>
     </Box>
   )
