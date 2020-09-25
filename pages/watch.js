@@ -12,7 +12,7 @@ import { Event } from '../components/Event'
 import { Header } from '../components/Header'
 
 import events from '../events'
-import { parseDate } from '../lib/date'
+import { parseDate, currentDate } from '../lib/date'
 
 const WatchPage = ({ events }) => {
   useEffect(() => {
@@ -31,7 +31,7 @@ const WatchPage = ({ events }) => {
 
   events = events
     .slice(0)
-    .filter(event => parseDate(event.date) > Date.now())
+    .filter(event => parseDate(event.date) > currentDate())
 
   const currentEvent = events?.[0]
 

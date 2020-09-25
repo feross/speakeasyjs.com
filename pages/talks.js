@@ -10,7 +10,7 @@ import { Header } from '../components/Header'
 import { Event } from '../components/Event'
 
 import events from '../events'
-import { parseDate } from '../lib/date'
+import { parseDate, currentDate } from '../lib/date'
 
 const TalksPage = ({ events }) => {
   return (
@@ -26,7 +26,7 @@ const TalksPage = ({ events }) => {
         {events
           .slice(0)
           .reverse()
-          .filter(event => parseDate(event.date) < Date.now())
+          .filter(event => parseDate(event.date) < currentDate())
           .map(event => (
             <Box key={event.date} mb={[10, 10, 16]}>
               <Heading as='h1' size='lg' textAlign='center' mb={8}>
