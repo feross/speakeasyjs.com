@@ -16,17 +16,17 @@ import { Header } from '../components/Header'
 
 import { colorScheme } from '../theme'
 import events from '../events'
-import { parseDate, currentDate } from '../lib/date'
+import { parseDate } from '../lib/date'
 
 const HomePage = ({ events }) => {
   events = events
     .slice(0)
-    .filter(event => parseDate(event.date) > currentDate())
+    // .filter(event => parseDate(event.date) > currentDate())
 
-  const currentEvent = events?.[0]
+  const currentEvent = events?.[3]
   const currentEventDate = currentEvent && format(parseDate(currentEvent.date), 'LLLL d')
 
-  const nextEvent = events?.[1]
+  const nextEvent = events?.[4]
   const nextEventDate = nextEvent && format(parseDate(nextEvent.date), 'LLLL d')
 
   return (

@@ -16,7 +16,7 @@ import { Header } from '../components/Header'
 
 import events from '../events'
 import { colorScheme } from '../theme'
-import { parseDate, currentDate } from '../lib/date'
+// import { parseDate, currentDate } from '../lib/date'
 
 const WatchPage = ({ events }) => {
   useEffect(() => {
@@ -35,9 +35,9 @@ const WatchPage = ({ events }) => {
 
   events = events
     .slice(0)
-    .filter(event => parseDate(event.date) > currentDate())
+    // .filter(event => parseDate(event.date) > currentDate())
 
-  const currentEvent = events?.[0]
+  const currentEvent = events?.[3]
 
   return (
     <Box
