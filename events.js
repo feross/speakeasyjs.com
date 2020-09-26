@@ -130,7 +130,41 @@ module.exports = [
         title: 'Social Happy Hour'
       }
     ]
+  },
+  {
+    date: '2020-10-23',
+    schedule: [
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2020-10-30',
+    schedule: [
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2020-11-06',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'Digital preservation in hardware tooling',
+        name: 'Suz Hinton',
+        twitter: 'noopkat'
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
   }
+
 ]
 
 // {
