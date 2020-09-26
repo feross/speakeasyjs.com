@@ -67,6 +67,7 @@ module.exports = [
   },
   {
     date: '2020-09-25',
+    youtube: 'r5F6dekUmdE',
     schedule: [
       {
         time: '4:00',
@@ -164,7 +165,6 @@ module.exports = [
       }
     ]
   }
-
 ]
 
 // {
