@@ -145,6 +145,12 @@ module.exports = [
     date: '2020-10-30',
     schedule: [
       {
+        time: '4:00',
+        title: 'How we fit our blockchain full node in a web browser',
+        name: 'Elena Nadolinski',
+        twitter: 'leanthebean'
+      },
+      {
         time: '4:40',
         title: 'Social Happy Hour'
       }
