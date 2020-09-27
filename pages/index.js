@@ -15,19 +15,14 @@ import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 
 import { colorScheme } from '../theme'
-import events from '../events'
+import { getCurrentEvent, getNextEvent } from '../lib/events'
 import { parseDate } from '../lib/date'
 
-const HomePage = ({ events }) => {
-  events = events
-    .slice(0)
-    // .filter(event => parseDate(event.date) > currentDate())
-
-  const currentEvent = events?.[3]
-  const currentEventDate = currentEvent && format(parseDate(currentEvent.date), 'LLLL d')
-
-  const nextEvent = events?.[4]
-  const nextEventDate = nextEvent && format(parseDate(nextEvent.date), 'LLLL d')
+const HomePage = ({ currentEvent, nextEvent }) => {
+  const currentEventDate = currentEvent &&
+    format(parseDate(currentEvent.date), 'LLLL d')
+  const nextEventDate = nextEvent &&
+    format(parseDate(nextEvent.date), 'LLLL d')
 
   return (
     <Box
@@ -39,7 +34,7 @@ const HomePage = ({ events }) => {
       <Footer />
 
       <Container maxWidth='lg'>
-        <Stack spacing={16} align='center'>
+        <Stack spacing={20} align='center'>
 
           <Stack spacing={8} align='center'>
             <Heading as='h1' size='xl' mt={[0, 4, 6]}>
@@ -123,7 +118,8 @@ export default HomePage
 export async function getServerSideProps (ctx) {
   return {
     props: {
-      events
+      currentEvent: getCurrentEvent(),
+      nextEvent: getNextEvent()
     }
   }
 }

@@ -1,4 +1,4 @@
-module.exports = [
+export const events = [
   {
     date: '2020-09-04',
     youtube: 'GrcWFOLoGi4',

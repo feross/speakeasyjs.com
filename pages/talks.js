@@ -1,18 +1,19 @@
 import {
   Box,
   Container,
+  Heading,
   SimpleGrid,
-  Heading
+  Stack
 } from '@chakra-ui/core'
 import { format } from 'date-fns'
 
 import { Header } from '../components/Header'
 import { Event } from '../components/Event'
 
-import events from '../events'
-import { parseDate, currentDate } from '../lib/date'
+import { getPastEvents } from '../lib/events'
+import { parseDate } from '../lib/date'
 
-const TalksPage = ({ events }) => {
+const TalksPage = ({ pastEvents }) => {
   return (
     <Box
       px={4}
@@ -22,13 +23,9 @@ const TalksPage = ({ events }) => {
       <Header />
 
       <Container maxWidth='xl'>
-
-        {events
-          .slice(0)
-          .reverse()
-          .filter(event => parseDate(event.date) < currentDate())
-          .map(event => (
-            <Box key={event.date} mb={[10, 10, 16]}>
+        <Stack spacing={20}>
+          {pastEvents.map(event => (
+            <Box key={event.date}>
               <Heading as='h1' size='lg' textAlign='center' mb={8}>
                 {format(parseDate(event.date), 'EEEE LLLL d, yyyy')}
               </Heading>
@@ -48,6 +45,7 @@ const TalksPage = ({ events }) => {
               </SimpleGrid>
             </Box>
           ))}
+        </Stack>
       </Container>
     </Box>
   )
@@ -58,9 +56,9 @@ export default TalksPage
 export async function getServerSideProps (ctx) {
   return {
     props: {
-      events,
       title: 'Past Talks',
-      description: 'Watch past talks from Speakeasy JS'
+      description: 'Watch past talks from Speakeasy JS',
+      pastEvents: getPastEvents().reverse()
     }
   }
 }

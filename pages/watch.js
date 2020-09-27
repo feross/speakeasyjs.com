@@ -14,11 +14,10 @@ import { ButtonLink } from '../components/ButtonLink'
 import { Event } from '../components/Event'
 import { Header } from '../components/Header'
 
-import events from '../events'
+import { getCurrentEvent } from '../lib/events'
 import { colorScheme } from '../theme'
-// import { parseDate, currentDate } from '../lib/date'
 
-const WatchPage = ({ events }) => {
+const WatchPage = ({ currentEvent }) => {
   useEffect(() => {
     ;(async () => {
       await loadScript('https://embed.twitch.tv/embed/v1.js')
@@ -33,12 +32,6 @@ const WatchPage = ({ events }) => {
     }
   }, [])
 
-  events = events
-    .slice(0)
-    // .filter(event => parseDate(event.date) > currentDate())
-
-  const currentEvent = events?.[3]
-
   return (
     <Box
       px={4}
@@ -48,7 +41,7 @@ const WatchPage = ({ events }) => {
       <Header showBuyButton={false} />
 
       <Container maxWidth='lg'>
-        <Stack spacing={16} align='center'>
+        <Stack spacing={20} align='center'>
           <Heading as='h1' size='xl' mt={[0, 4, 6]}>
             You've found it. Here's what's going down.
           </Heading>
@@ -83,7 +76,7 @@ export async function getServerSideProps (ctx) {
     props: {
       title: 'Watch Now',
       description: 'Watch Speakeasy JS now',
-      events
+      currentEvent: getCurrentEvent()
     }
   }
 }
