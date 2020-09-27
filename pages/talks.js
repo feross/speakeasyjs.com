@@ -38,7 +38,7 @@ const TalksPage = ({ pastEvents }) => {
                     width='450'
                     height='255'
                     src={`https://www.youtube-nocookie.com/embed/${event.youtube}`}
-                    frameborder='0'
+                    frameBorder='0'
                     allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
                     allowFullScreen
                   />}
