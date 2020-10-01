@@ -92,7 +92,7 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Live Musical Performance 🎶',
+        title: 'Rust-Powered Live Musical Performance 🎶',
         name: 'Matt McKegg',
         twitter: 'NOISEISSUES'
       },
