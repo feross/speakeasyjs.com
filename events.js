@@ -89,6 +89,7 @@ export const events = [
   },
   {
     date: '2020-10-02',
+    youtube: 'S-NioC6W858',
     schedule: [
       {
         time: '4:00',
