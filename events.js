@@ -128,12 +128,6 @@ export const events = [
         twitter: 'substack'
       },
       {
-        time: '4:20',
-        title: 'TBD',
-        name: 'Olivia Jack',
-        twitter: '_ojack_'
-      },
-      {
         time: '4:40',
         title: 'Social Happy Hour'
       }
