@@ -177,6 +177,21 @@ export const events = [
         title: 'Social Happy Hour'
       }
     ]
+  },
+  {
+    date: '2020-11-13',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'How to build a WebRTC app in under 6 years',
+        name: 'David Guttman',
+        twitter: 'davidguttman'
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
   }
 ]
 
