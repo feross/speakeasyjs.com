@@ -198,9 +198,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: '',
-        name: '',
-        twitter: ''
+        title: 'Beaker: A Web Without Servers',
+        name: 'Paul Frazee',
+        twitter: 'pfrazee'
       },
       {
         time: '4:40',
