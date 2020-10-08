@@ -284,7 +284,7 @@ export const events = [
 
 // TODO:
 // Brooklyn Zelenka - elixer
-// Olivia Jack (_ojack_) - music
-// Dandelion - sourcecred
-// foxbarrington - rambly
-//
+// Olivia Jack (_ojack_) - music, had to cancel
+// Adam Baldwin - security stories
+// Matteo Collina - can talk in 2021
+// Paul Frazee - beaker
