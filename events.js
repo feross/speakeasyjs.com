@@ -98,7 +98,7 @@ export const events = [
         twitter: 'NOISEISSUES'
       },
       {
-        time: '4:30',
+        time: '5:00',
         title: 'Social Happy Hour'
       }
     ]
@@ -113,7 +113,7 @@ export const events = [
         twitter: 'FredKSchott'
       },
       {
-        time: '4:30',
+        time: '4:40',
         title: 'Social Happy Hour'
       }
     ]
@@ -180,3 +180,10 @@ export const events = [
 //   name: 'Feross Aboukhadijeh',
 //   twitter: 'feross'
 // },
+
+// TODO:
+// Brooklyn Zelenka - elixer
+// Olivia Jack (_ojack_) - music
+// Dandelion - sourcecred
+// foxbarrington - rambly
+//
