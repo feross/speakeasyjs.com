@@ -192,6 +192,86 @@ export const events = [
         title: 'Social Happy Hour'
       }
     ]
+  },
+  {
+    date: '2020-11-20',
+    schedule: [
+      {
+        time: '4:00',
+        title: '',
+        name: '',
+        twitter: ''
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2020-11-27',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'No Event This Week',
+        name: 'Thanksgiving'
+      }
+    ]
+  },
+  {
+    date: '2020-12-04',
+    schedule: [
+      {
+        time: '4:00',
+        title: '',
+        name: '',
+        twitter: ''
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2020-12-11',
+    schedule: [
+      {
+        time: '4:00',
+        title: '',
+        name: '',
+        twitter: ''
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2020-12-18',
+    schedule: [
+      {
+        time: '4:00',
+        title: '',
+        name: '',
+        twitter: ''
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2020-12-25',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'No Event This Week',
+        name: 'Christmas'
+      }
+    ]
   }
 ]
 
