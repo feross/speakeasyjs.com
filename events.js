@@ -137,6 +137,12 @@ export const events = [
     date: '2020-10-23',
     schedule: [
       {
+        time: '4:00',
+        title: 'CredRank: Algorithmic Credit Attribution over Time',
+        name: 'Dandelion',
+        twitter: 'decentralion'
+      },
+      {
         time: '4:40',
         title: 'Social Happy Hour'
       }
