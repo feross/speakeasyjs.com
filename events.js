@@ -108,7 +108,7 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Snowpack: The faster frontend build tool',
+        title: 'Snowpack: Faster web tooling, powered by ESM',
         name: 'Fred K Schott',
         twitter: 'FredKSchott'
       },
