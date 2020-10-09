@@ -223,9 +223,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: '',
-        name: '',
-        twitter: ''
+        title: 'Future Features In JavaScript? Let\'s discuss some of the TC39 proposals',
+        name: 'Hemanth HM',
+        twitter: 'GNUmanth'
       },
       {
         time: '4:40',
