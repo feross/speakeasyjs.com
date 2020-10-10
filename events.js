@@ -105,6 +105,7 @@ export const events = [
   },
   {
     date: '2020-10-09',
+    youtube: 'PJcfKX_PKaM',
     schedule: [
       {
         time: '4:00',
