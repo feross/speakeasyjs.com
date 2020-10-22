@@ -200,9 +200,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Beaker: A Web Without Servers',
-        name: 'Paul Frazee',
-        twitter: 'pfrazee'
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO'
       },
       {
         time: '4:40',
@@ -289,3 +289,10 @@ export const events = [
 // Olivia Jack (_ojack_) - music, had to cancel
 // Adam Baldwin - security stories
 // Matteo Collina - can talk in 2021
+
+// {
+//   time: '4:00',
+//   title: 'Beaker: A Web Without Servers',
+//   name: 'Paul Frazee',
+//   twitter: 'pfrazee'
+// }
