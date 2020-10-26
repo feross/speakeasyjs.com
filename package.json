@@ -59,9 +59,6 @@
     "watch": "DEBUG=speakeasyjs.com:* nodemon . --watch server"
   },
   "standard": {
-    "parser": "babel-eslint",
-    "global": [
-      "globalThis"
-    ]
+    "parser": "babel-eslint"
   }
 }
