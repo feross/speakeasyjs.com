@@ -275,8 +275,51 @@ export const events = [
         name: 'Christmas'
       }
     ]
+  },
+  {
+    date: '2021-01-01',
+    schedule: [
+      {
+        time: '4:00',
+        title: '',
+        name: ''
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2021-01-08',
+    schedule: [
+      {
+        time: '4:00',
+        title: '',
+        name: ''
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
   }
 ]
+
+// TODO:
+
+// Brooklyn Zelenka - WebNative
+// Olivia Jack (_ojack_) - music, had to cancel
+// Adam Baldwin - security stories
+// Matteo Collina - can talk in 2021
+// Phoenix - in-browser database
+// Gozala
+// Mappum
+// Mafintosh (regularly)
+// Flet
+//
+
+// Postponed:
 
 // {
 //   time: '4:15',
@@ -284,12 +327,6 @@ export const events = [
 //   name: 'Feross Aboukhadijeh',
 //   twitter: 'feross'
 // },
-
-// TODO:
-// Brooklyn Zelenka - elixer
-// Olivia Jack (_ojack_) - music, had to cancel
-// Adam Baldwin - security stories
-// Matteo Collina - can talk in 2021
 
 // {
 //   time: '4:00',
