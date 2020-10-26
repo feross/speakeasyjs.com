@@ -4,7 +4,8 @@ import {
   Heading,
   Stack,
   Text,
-  Wrap
+  Wrap,
+  WrapItem
 } from '@chakra-ui/core'
 import { format } from 'date-fns'
 
@@ -86,25 +87,33 @@ const HomePage = ({ currentEvent, nextEvent }) => {
             </Heading>
 
             <Wrap justify='center'>
-              <ButtonLink
-                href='https://calendar.google.com/calendar?cid=MXNrMmtvOWRqMnNhNzNsN20xbnFudWJydjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'
-                size='md'
-              >
-                Add to Google Calendar
-              </ButtonLink>
-              <ButtonLink
-                href='https://calendar.google.com/calendar/ical/1sk2ko9dj2sa73l7m1nqnubrv4%40group.calendar.google.com/public/basic.ics'
-                size='md'
-              >
-                Download .ical file
-              </ButtonLink>
-              <ButtonLink
-                href='https://twitter.com/Speakeasy_JS'
-                size='md'
-              >
-                Follow @Speakeasy_JS
-              </ButtonLink>
-              <ColorModeButton />
+              <WrapItem>
+                <ButtonLink
+                  href='https://calendar.google.com/calendar?cid=MXNrMmtvOWRqMnNhNzNsN20xbnFudWJydjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'
+                  size='md'
+                >
+                  Add to Google Calendar
+                </ButtonLink>
+              </WrapItem>
+              <WrapItem>
+                <ButtonLink
+                  href='https://calendar.google.com/calendar/ical/1sk2ko9dj2sa73l7m1nqnubrv4%40group.calendar.google.com/public/basic.ics'
+                  size='md'
+                >
+                  Download .ical file
+                </ButtonLink>
+              </WrapItem>
+              <WrapItem>
+                <ButtonLink
+                  href='https://twitter.com/Speakeasy_JS'
+                  size='md'
+                >
+                  Follow @Speakeasy_JS
+                </ButtonLink>
+              </WrapItem>
+              <WrapItem>
+                <ColorModeButton />
+              </WrapItem>
             </Wrap>
           </Stack>
         </Stack>
