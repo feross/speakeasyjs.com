@@ -156,9 +156,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'How we fit our blockchain full node in a web browser',
-        name: 'Elena Nadolinski',
-        twitter: 'leanthebean'
+        title: '',
+        name: '',
+        twitter: ''
       },
       {
         time: '4:40',
@@ -241,9 +241,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: '',
-        name: '',
-        twitter: ''
+        title: 'How we fit our blockchain full node in a web browser',
+        name: 'Elena Nadolinski',
+        twitter: 'leanthebean'
       },
       {
         time: '4:40',
