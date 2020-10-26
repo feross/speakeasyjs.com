@@ -17,6 +17,7 @@
     "date-fns": "^2.16.1",
     "debug": "^4.2.0",
     "feross": "^2.0.1",
+    "framer-motion": "^2.9.4",
     "load-script2": "^2.0.5",
     "next": "^9.5.5",
     "react": "^17.0.1",
