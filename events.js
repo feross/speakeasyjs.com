@@ -256,9 +256,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: '',
-        name: '',
-        twitter: ''
+        title: 'Using Standard Web APIs to Mix P2P Protocols',
+        name: 'Mauve',
+        twitter: 'RangerMauve'
       },
       {
         time: '4:40',
