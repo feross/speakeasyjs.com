@@ -68,14 +68,15 @@ export const Header = ({ showBuyButton = true, ...rest }) => {
         </Flex>
       </Link>
 
-      <Stack direction='row'>
-        <ButtonLink
-          size='lg'
-          href='/talks'
-          variant='ghost'
-        >
-          Past Talks
-        </ButtonLink>
+      <Stack direction='row' align='center'>
+        {!isMobile &&
+          <ButtonLink
+            size='md'
+            href='/talks'
+            variant='ghost'
+          >
+            Past Talks
+          </ButtonLink>}
         {showBuyButton && !isMobile &&
           <ButtonLink
             colorScheme={colorScheme}

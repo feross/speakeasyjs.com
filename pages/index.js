@@ -38,15 +38,15 @@ const HomePage = ({ currentEvent, nextEvent }) => {
         <Stack spacing={20} align='center'>
 
           <Stack spacing={8} align='center'>
-            <Heading as='h1' size='xl' mt={[0, 4, 6]}>
+            <Heading as='h1' size='xl' mt={[0, 4, 6]} textAlign='center'>
               Psst... You've found it.
             </Heading>
 
-            <Text fontSize='xl'>
+            <Text fontSize='xl' textAlign='center'>
               This is the JavaScript meetup for 🥼&nbsp;mad science, 🧙‍♂️&nbsp;hacking, and 🧪&nbsp;experiments.
             </Text>
 
-            <Text fontSize='xl'>
+            <Text fontSize='xl' textAlign='center'>
               Hang out virtually on <Text as='strong'><Text as='u'>Friday at 4pm Pacific Time</Text></Text> each week.
             </Text>
           </Stack>
@@ -62,18 +62,10 @@ const HomePage = ({ currentEvent, nextEvent }) => {
               />
             </Stack>}
 
-          <ButtonLink
-            colorScheme={colorScheme}
-            size='lg'
-            href='/buy'
-          >
-            If you dig it, get a ticket
-          </ButtonLink>
-
           {nextEvent &&
             <Stack spacing={8} align='center'>
               <Heading as='h1' size='lg' textAlign='center'>
-                And here's a sneak peak at <Text as='em'><Text as='u'>next Friday</Text></Text> ({nextEventDate})
+                And here's a sneak peak of <Text as='em'><Text as='u'>next Friday</Text></Text> ({nextEventDate})
               </Heading>
 
               <Event
@@ -83,39 +75,50 @@ const HomePage = ({ currentEvent, nextEvent }) => {
 
           <Stack spacing={8} align='center'>
             <Heading as='h1' size='lg' textAlign='center'>
-              Ssh... don't tell anyone
+              Get your ticket to the party!
             </Heading>
-
-            <Wrap justify='center'>
-              <WrapItem>
-                <ButtonLink
-                  href='https://calendar.google.com/calendar?cid=MXNrMmtvOWRqMnNhNzNsN20xbnFudWJydjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'
-                  size='md'
-                >
-                  Add to Google Calendar
-                </ButtonLink>
-              </WrapItem>
-              <WrapItem>
-                <ButtonLink
-                  href='https://calendar.google.com/calendar/ical/1sk2ko9dj2sa73l7m1nqnubrv4%40group.calendar.google.com/public/basic.ics'
-                  size='md'
-                >
-                  Download .ical file
-                </ButtonLink>
-              </WrapItem>
-              <WrapItem>
-                <ButtonLink
-                  href='https://twitter.com/Speakeasy_JS'
-                  size='md'
-                >
-                  Follow @Speakeasy_JS
-                </ButtonLink>
-              </WrapItem>
-              <WrapItem>
-                <ColorModeButton />
-              </WrapItem>
-            </Wrap>
+            <ButtonLink
+              colorScheme={colorScheme}
+              size='lg'
+              href='/buy'
+            >
+              Get a free ticket
+            </ButtonLink>
           </Stack>
+
+          <Wrap justify='center'>
+            <WrapItem>
+              <ButtonLink
+                href='/talks'
+              >
+                Past Talks
+              </ButtonLink>
+            </WrapItem>
+            <WrapItem>
+              <ButtonLink
+                href='https://calendar.google.com/calendar?cid=MXNrMmtvOWRqMnNhNzNsN20xbnFudWJydjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'
+              >
+                Add to Google Calendar
+              </ButtonLink>
+            </WrapItem>
+            <WrapItem>
+              <ButtonLink
+                href='https://calendar.google.com/calendar/ical/1sk2ko9dj2sa73l7m1nqnubrv4%40group.calendar.google.com/public/basic.ics'
+              >
+                Download .ical file
+              </ButtonLink>
+            </WrapItem>
+            <WrapItem>
+              <ButtonLink
+                href='https://twitter.com/Speakeasy_JS'
+              >
+                Follow @Speakeasy_JS
+              </ButtonLink>
+            </WrapItem>
+            <WrapItem>
+              <ColorModeButton />
+            </WrapItem>
+          </Wrap>
         </Stack>
       </Container>
     </Box>
