@@ -42,7 +42,7 @@ const WatchPage = ({ currentEvent }) => {
 
       <Container maxWidth='lg'>
         <Stack spacing={20} align='center'>
-          <Heading as='h1' size='xl' mt={[0, 4, 6]}>
+          <Heading as='h1' size='xl' mt={[0, 4, 6]} textAlign='center'>
             You've found it. Here's what's going down.
           </Heading>
 
@@ -55,13 +55,18 @@ const WatchPage = ({ currentEvent }) => {
             width='full'
           />
 
-          <ButtonLink
-            colorScheme={colorScheme}
-            size='lg'
-            href='/buy'
-          >
-            Get a ticket for next week's event
-          </ButtonLink>
+          <Stack spacing={8} align='center'>
+            <Heading as='h1' size='lg' textAlign='center'>
+              Get your ticket to next week's event!
+            </Heading>
+            <ButtonLink
+              colorScheme={colorScheme}
+              size='lg'
+              href='/buy'
+            >
+              Get a free ticket
+            </ButtonLink>
+          </Stack>
         </Stack>
 
       </Container>
