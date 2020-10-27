@@ -26,6 +26,7 @@ const EventItem = ({ item }) => {
         mr={[0, 6]}
         mb={[4, 0]}
         textAlign={['center', 'right']}
+        whiteSpace='nowrap'
       >
         {item.time} PM
       </Box>

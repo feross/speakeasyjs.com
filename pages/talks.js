@@ -2,12 +2,12 @@ import {
   Box,
   Container,
   Heading,
-  SimpleGrid,
   Stack
 } from '@chakra-ui/core'
 import { format } from 'date-fns'
 
 import { Header } from '../components/Header'
+import { Footer } from '../components/Footer'
 import { Event } from '../components/Event'
 
 import { getPastEvents } from '../lib/events'
@@ -20,29 +20,39 @@ const TalksPage = ({ pastEvents }) => {
       py={32}
       fontSize='lg'
     >
-      <Header />
+      <Header showPastTalksButton={false} />
+      <Footer />
 
-      <Container maxWidth='xl'>
+      <Container maxWidth='lg'>
         <Stack spacing={20}>
           {pastEvents.map(event => (
             <Box key={event.date}>
               <Heading as='h1' size='lg' textAlign='center' mb={8}>
                 {format(parseDate(event.date), 'EEEE LLLL d, yyyy')}
               </Heading>
-              <SimpleGrid columns={[1, 1, 2]} spacing={8}>
+              <Stack
+                spacing={8}
+                direction={['column', null, 'row']}
+                justify={['center', null, 'space-between']}
+                align='center'
+              >
                 <Event
                   event={event}
+                  minWidth={64}
                 />
                 {event.youtube &&
                   <iframe
-                    width='450'
-                    height='255'
+                    width='400'
+                    height='200'
                     src={`https://www.youtube-nocookie.com/embed/${event.youtube}`}
                     frameBorder='0'
                     allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
                     allowFullScreen
+                    style={{
+                      maxWidth: '100%'
+                    }}
                   />}
-              </SimpleGrid>
+              </Stack>
             </Box>
           ))}
         </Stack>

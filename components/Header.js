@@ -13,8 +13,12 @@ import { Link } from './Link'
 import { colorScheme } from '../theme'
 import { siteName, siteImage } from '../config'
 
-export const Header = ({ showBuyButton = true, ...rest }) => {
-  const isMobile = useBreakpointValue([true, false])
+export const Header = ({
+  showBuyButton = true,
+  showPastTalksButton = true,
+  ...rest
+}) => {
+  const isDesktop = useBreakpointValue([false, false, true])
   const [scrollY, setScrollY] = useState(0)
 
   useEffect(() => {
@@ -35,7 +39,7 @@ export const Header = ({ showBuyButton = true, ...rest }) => {
       top={0}
       left={0}
       right={0}
-      justify={['center', 'space-between']}
+      justify={['center', null, 'space-between']}
       align='center'
       borderBottom={scrollY > 0 ? '1px solid' : 'none'}
       borderColor='blackAlpha.300'
@@ -68,24 +72,25 @@ export const Header = ({ showBuyButton = true, ...rest }) => {
         </Flex>
       </Link>
 
-      <Stack direction='row' align='center'>
-        {!isMobile &&
-          <ButtonLink
-            size='md'
-            href='/talks'
-            variant='ghost'
-          >
-            Past Talks
-          </ButtonLink>}
-        {showBuyButton && !isMobile &&
-          <ButtonLink
-            colorScheme={colorScheme}
-            size='lg'
-            href='/buy'
-          >
-            Get a free ticket
-          </ButtonLink>}
-      </Stack>
+      {isDesktop &&
+        <Stack direction='row' align='center'>
+          {showPastTalksButton &&
+            <ButtonLink
+              size='md'
+              href='/talks'
+              variant='ghost'
+            >
+              Past Talks
+            </ButtonLink>}
+          {showBuyButton &&
+            <ButtonLink
+              colorScheme={colorScheme}
+              size='lg'
+              href='/buy'
+            >
+              Get a free ticket
+            </ButtonLink>}
+        </Stack>}
 
     </Flex>
   )

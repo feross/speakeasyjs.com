@@ -8,9 +8,9 @@ import { ButtonLink } from './ButtonLink'
 import { colorScheme } from '../theme'
 
 export const Footer = props => {
-  const isMobile = useBreakpointValue([true, false])
+  const isDesktop = useBreakpointValue([false, false, true])
 
-  if (!isMobile) return null
+  if (isDesktop) return null
 
   return (
     <Flex
