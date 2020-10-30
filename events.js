@@ -299,6 +299,48 @@ export const events = [
         title: 'Social Happy Hour'
       }
     ]
+  },
+  {
+    date: '2021-01-15',
+    schedule: [
+      {
+        time: '4:00',
+        title: '',
+        name: ''
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2021-01-22',
+    schedule: [
+      {
+        time: '4:00',
+        title: '',
+        name: ''
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2021-01-29',
+    schedule: [
+      {
+        time: '4:00',
+        title: '',
+        name: ''
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
   }
 ]
 
@@ -313,7 +355,10 @@ export const events = [
 // Mappum
 // Mafintosh (regularly)
 // Flet
-//
+// Judd / kep - has been using Proxies to make JS objects which are actually binary data stored in ArrayBuffers so that data can be shared across workers 0-copy with the SharedMemory API
+// Bret
+// Kyle Drake
+// whyrusleeping
 
 // Postponed:
 
