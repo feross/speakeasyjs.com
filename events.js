@@ -156,13 +156,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: '',
-        name: '',
+        title: 'No Event This Week',
+        name: 'Feross\'s Birthday',
         twitter: ''
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
