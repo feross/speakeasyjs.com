@@ -198,7 +198,7 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Restoring an old TV',
+        title: 'Restoring a 1960 color TV',
         name: 'John Hiesey',
         twitter: 'jhiesey'
       },
