@@ -183,13 +183,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'How to build a WebRTC app in under 6 years',
-        name: 'David Guttman',
-        twitter: 'davidguttman'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
+        title: 'No Event This Week',
+        name: 'David Guttman is a father!',
+        twitter: ''
       }
     ]
   },
@@ -375,4 +371,11 @@ export const events = [
 //   title: 'Beaker: A Web Without Servers',
 //   name: 'Paul Frazee',
 //   twitter: 'pfrazee'
+// }
+
+// {
+//   time: '4:00',
+//   title: 'How to build a WebRTC app in under 6 years',
+//   name: 'David Guttman',
+//   twitter: 'davidguttman'
 // }
