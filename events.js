@@ -288,8 +288,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: '',
-        name: ''
+        title: 'Design as an Optimization Problem',
+        name: 'Jordan Eldredge',
+        twitter: 'captbaritone'
       },
       {
         time: '4:40',
