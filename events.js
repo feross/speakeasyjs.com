@@ -152,17 +152,6 @@ export const events = [
     ]
   },
   {
-    date: '2020-10-30',
-    schedule: [
-      {
-        time: '4:00',
-        title: 'No Event This Week',
-        name: 'Feross\'s Birthday',
-        twitter: ''
-      }
-    ]
-  },
-  {
     date: '2020-11-06',
     youtube: '97CTAtfAuOM',
     schedule: [
@@ -175,17 +164,6 @@ export const events = [
       {
         time: '4:40',
         title: 'Social Happy Hour'
-      }
-    ]
-  },
-  {
-    date: '2020-11-13',
-    schedule: [
-      {
-        time: '4:00',
-        title: 'No Event This Week',
-        name: 'David Guttman is a father!',
-        twitter: ''
       }
     ]
   },
@@ -274,12 +252,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: '',
-        name: ''
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
+        title: 'No Event This Week',
+        name: 'New Year\'s Day'
       }
     ]
   },
