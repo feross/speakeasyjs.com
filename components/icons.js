@@ -1,7 +1,7 @@
 import {
   Box,
   createIcon
-} from '@chakra-ui/core'
+} from '@chakra-ui/react'
 import { FaMoon, FaSun } from 'react-icons/fa'
 
 // Icons

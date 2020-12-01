@@ -8,7 +8,7 @@ import {
   Container,
   Heading,
   Stack
-} from '@chakra-ui/core'
+} from '@chakra-ui/react'
 
 import { ButtonLink } from '../components/ButtonLink'
 import { Event } from '../components/Event'

@@ -6,7 +6,7 @@ import {
   Text,
   Wrap,
   WrapItem
-} from '@chakra-ui/core'
+} from '@chakra-ui/react'
 import { format } from 'date-fns'
 
 import { ButtonLink } from '../components/ButtonLink'

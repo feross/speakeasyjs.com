@@ -11,13 +11,14 @@
     "url": "https://github.com/feross/speakeasyjs.com/issues"
   },
   "dependencies": {
-    "@chakra-ui/core": "^1.0.0-rc.7",
-    "@chakra-ui/theme": "^1.0.0-rc.7",
+    "@chakra-ui/react": "^1.0.1",
+    "@emotion/react": "^11.1.1",
+    "@emotion/styled": "^11.0.0",
     "@next/bundle-analyzer": "^9.5.5",
     "date-fns": "^2.16.1",
     "debug": "^4.2.0",
     "feross": "^2.0.1",
-    "framer-motion": "^2.9.4",
+    "framer-motion": "^2.9.5",
     "load-script2": "^2.0.5",
     "next": "^9.5.5",
     "react": "^17.0.1",

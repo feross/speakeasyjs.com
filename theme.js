@@ -1,9 +1,7 @@
-import chakraTheme from '@chakra-ui/theme'
+import { extendTheme } from '@chakra-ui/react'
 
-export const theme = {
-  ...chakraTheme
-}
-
-export const siteColor = chakraTheme.colors.yellow['500']
+export const theme = extendTheme({})
 
 export const colorScheme = 'yellow'
+
+export const siteColor = theme.colors[colorScheme]['500']

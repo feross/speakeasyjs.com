@@ -3,7 +3,7 @@ import {
   Container,
   Heading,
   Stack
-} from '@chakra-ui/core'
+} from '@chakra-ui/react'
 import { format } from 'date-fns'
 
 import { Header } from '../components/Header'

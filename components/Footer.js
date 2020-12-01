@@ -1,7 +1,7 @@
 import {
   Flex,
   useBreakpointValue
-} from '@chakra-ui/core'
+} from '@chakra-ui/react'
 
 import { ButtonLink } from './ButtonLink'
 

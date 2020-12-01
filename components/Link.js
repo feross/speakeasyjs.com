@@ -1,5 +1,5 @@
 import NextLink from 'next/link'
-import { Link as ChakraLink } from '@chakra-ui/core'
+import { Link as ChakraLink } from '@chakra-ui/react'
 
 import { ExternalLinkIcon } from './icons'
 
