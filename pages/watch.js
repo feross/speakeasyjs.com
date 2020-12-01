@@ -28,7 +28,8 @@ const WatchPage = ({ currentEvent }) => {
       })
     })()
     return () => {
-      document.querySelector('#twitch-embed').innerHTML = ''
+      const $twitchEmbed = document.querySelector('#twitch-embed')
+      if ($twitchEmbed) $twitchEmbed.innerHTML = ''
     }
   }, [])
 
