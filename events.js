@@ -168,31 +168,6 @@ export const events = [
     ]
   },
   {
-    date: '2020-11-20',
-    schedule: [
-      {
-        time: '4:00',
-        title: 'Restoring a 1960 color TV',
-        name: 'John Hiesey',
-        twitter: 'jhiesey'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
-      }
-    ]
-  },
-  {
-    date: '2020-11-27',
-    schedule: [
-      {
-        time: '4:00',
-        title: 'No Event This Week',
-        name: 'Thanksgiving'
-      }
-    ]
-  },
-  {
     date: '2020-12-04',
     schedule: [
       {
@@ -227,9 +202,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Using Standard Web APIs to Mix P2P Protocols',
-        name: 'Mauve',
-        twitter: 'RangerMauve'
+        title: 'Restoring a 1960 color TV',
+        name: 'John Hiesey',
+        twitter: 'jhiesey'
       },
       {
         time: '4:40',
@@ -277,8 +252,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: '',
-        name: ''
+        title: 'Using Standard Web APIs to Mix P2P Protocols',
+        name: 'Mauve',
+        twitter: 'RangerMauve'
       },
       {
         time: '4:40',
