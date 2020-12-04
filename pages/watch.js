@@ -41,7 +41,7 @@ const WatchPage = ({ currentEvent }) => {
     >
       <Header showBuyButton={false} />
 
-      <Container maxWidth='lg'>
+      <Container maxWidth='4xl'>
         <Stack spacing={20} align='center'>
           <Heading as='h1' size='xl' mt={[0, 4, 6]} textAlign='center'>
             You've found it. Here's what's going down.

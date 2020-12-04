@@ -18,7 +18,12 @@ export const Header = ({
   showPastTalksButton = true,
   ...rest
 }) => {
-  const isDesktop = useBreakpointValue([false, false, true])
+  const _isDesktop = useBreakpointValue([false, false, true])
+  const [isDesktop, setIsDesktop] = useState(false)
+  useEffect(() => {
+    setIsDesktop(_isDesktop)
+  }, [_isDesktop])
+
   const [scrollY, setScrollY] = useState(0)
 
   useEffect(() => {
@@ -51,7 +56,6 @@ export const Header = ({
     >
       <Link
         href='/'
-        nextRoute='/'
         _hover={{
           textDecoration: 'none'
         }}

@@ -23,7 +23,7 @@ const TalksPage = ({ pastEvents }) => {
       <Header showPastTalksButton={false} />
       <Footer />
 
-      <Container maxWidth='lg'>
+      <Container maxWidth='4xl'>
         <Stack spacing={20}>
           {pastEvents.map(event => (
             <Box key={event.date}>

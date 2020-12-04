@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import {
   Flex,
   useBreakpointValue
@@ -8,7 +9,11 @@ import { ButtonLink } from './ButtonLink'
 import { colorScheme } from '../theme'
 
 export const Footer = props => {
-  const isDesktop = useBreakpointValue([false, false, true])
+  const _isDesktop = useBreakpointValue([false, false, true])
+  const [isDesktop, setIsDesktop] = useState(false)
+  useEffect(() => {
+    setIsDesktop(_isDesktop)
+  }, [_isDesktop])
 
   if (isDesktop) return null
 

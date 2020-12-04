@@ -34,7 +34,7 @@ const HomePage = ({ currentEvent, nextEvent }) => {
       <Header />
       <Footer />
 
-      <Container maxWidth='lg'>
+      <Container maxWidth='4xl'>
         <Stack spacing={20} align='center'>
 
           <Stack spacing={8} align='center'>
