@@ -268,8 +268,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: '',
-        name: ''
+        title: 'WebNative',
+        name: 'Brooklyn Zelenka',
+        twitter: 'expede'
       },
       {
         time: '4:40',
