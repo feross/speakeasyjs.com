@@ -297,8 +297,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: '',
-        name: ''
+        title: 'Attacking Open Source using Abandoned Resources',
+        name: 'Adam Baldwin',
+        twitter: 'adam_baldwin'
       },
       {
         time: '4:40',
