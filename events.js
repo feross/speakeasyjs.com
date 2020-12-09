@@ -268,7 +268,7 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'WebNative',
+        title: 'WebNative: How to put a full stack directly in the browser',
         name: 'Brooklyn Zelenka',
         twitter: 'expede'
       },
