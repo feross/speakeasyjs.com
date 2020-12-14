@@ -1,18 +1,17 @@
 import NextLink from 'next/link'
-import { Link as ChakraLink } from '@chakra-ui/react'
+import { forwardRef, Link as ChakraLink } from '@chakra-ui/react'
 
 import { ExternalLinkIcon } from './icons'
 
 const EXAMPLE_ORIGIN = 'http://example.com:9999'
 
-export const Link = ({
-  as = ChakraLink,
+export const Link = forwardRef(({
   href,
   showExternalIcon,
   children,
   prefetch,
   ...rest
-}) => {
+}, ref) => {
   const url = new URL(href, EXAMPLE_ORIGIN)
   const isExternal = url.origin !== EXAMPLE_ORIGIN
 
@@ -22,15 +21,13 @@ export const Link = ({
     ? <ExternalLinkIcon ml={2} />
     : null
 
-  const LinkComponent = as
-
   if (isExternal) {
     return (
-      <LinkComponent href={href} isExternal {...rest}>
+      <ChakraLink href={href} isExternal ref={ref} {...rest}>
         {children}
         {!!externalIcon && ' '}
         {externalIcon}
-      </LinkComponent>
+      </ChakraLink>
     )
   } else {
     const nextLinkProps = {}
@@ -41,11 +38,11 @@ export const Link = ({
         passHref
         {...nextLinkProps}
       >
-        <LinkComponent {...rest}>
+        <ChakraLink ref={ref} {...rest}>
           {children}
           {externalIcon}
-        </LinkComponent>
+        </ChakraLink>
       </NextLink>
     )
   }
-}
+})

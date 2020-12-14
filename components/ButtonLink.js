@@ -1,27 +1,15 @@
-import { Button } from '@chakra-ui/react'
+import { Button, forwardRef } from '@chakra-ui/react'
 
 import { Link } from './Link'
 
-export const ButtonLink = ({
-  as = Button,
-  href,
-  prefetch,
-  ...rest
-}) => {
-  const ButtonComponent = as
-  return (
-    <Link
-      href={href}
-      prefetch={prefetch}
-      showExternalIcon={false}
-      textDecoration='none'
-      _hover={{
-        textDecoration: 'none'
-      }}
-    >
-      <ButtonComponent {...rest} />
-    </Link>
-  )
-}
+const LinkNoHover = forwardRef((props, ref) => (
+  <Link _hover={{ textDecoration: 'none' }} ref={ref} {...props} />
+))
 
-export default ButtonLink
+export const ButtonLink = forwardRef((props, ref) => (
+  <Button
+    as={LinkNoHover}
+    ref={ref}
+    {...props}
+  />
+))
