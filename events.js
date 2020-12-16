@@ -314,8 +314,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: '',
-        name: ''
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO'
       },
       {
         time: '4:40',
@@ -328,8 +329,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: '',
-        name: ''
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO'
       },
       {
         time: '4:40',
@@ -342,8 +344,69 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: '',
-        name: ''
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO'
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2021-03-05',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO'
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2021-03-12',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO'
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2021-03-19',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO'
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2021-03-26',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO'
       },
       {
         time: '4:40',
