@@ -284,8 +284,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: '',
-        name: ''
+        title: 'Lavamoat: Securing your dependency graph',
+        name: 'Kumavis',
+        twitter: 'kumavis'
       },
       {
         time: '4:40',
