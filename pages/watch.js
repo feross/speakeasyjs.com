@@ -11,11 +11,18 @@ import {
 } from '@chakra-ui/react'
 
 import { ButtonLink } from '../components/ButtonLink'
-import { Event } from '../components/Event'
+// import { Event } from '../components/Event'
 import { Header } from '../components/Header'
 
 import { getCurrentEvent } from '../lib/events'
 import { colorScheme } from '../theme'
+
+// <Heading as='h1' size='xl' mt={[0, 4, 6]} textAlign='center'>
+//   You've found it. Here's what's going down.
+// </Heading>
+// <Event
+//   event={currentEvent}
+// />
 
 const WatchPage = ({ currentEvent }) => {
   useEffect(() => {
@@ -43,14 +50,6 @@ const WatchPage = ({ currentEvent }) => {
 
       <Container maxWidth='4xl'>
         <Stack spacing={20} align='center'>
-          <Heading as='h1' size='xl' mt={[0, 4, 6]} textAlign='center'>
-            You've found it. Here's what's going down.
-          </Heading>
-
-          <Event
-            event={currentEvent}
-          />
-
           <Box
             id='twitch-embed'
             width='full'
