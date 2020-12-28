@@ -201,6 +201,7 @@ export const events = [
   },
   {
     date: '2020-12-18',
+    youtube: 'O0WPMUx6vAo',
     schedule: [
       {
         time: '4:00',
