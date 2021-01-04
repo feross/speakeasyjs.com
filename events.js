@@ -216,26 +216,6 @@ export const events = [
     ]
   },
   {
-    date: '2020-12-25',
-    schedule: [
-      {
-        time: '4:00',
-        title: 'No Event This Week',
-        name: 'Christmas'
-      }
-    ]
-  },
-  {
-    date: '2021-01-01',
-    schedule: [
-      {
-        time: '4:00',
-        title: 'No Event This Week',
-        name: 'New Year\'s Day'
-      }
-    ]
-  },
-  {
     date: '2021-01-08',
     schedule: [
       {
