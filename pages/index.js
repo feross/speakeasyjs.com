@@ -3,9 +3,7 @@ import {
   Container,
   Heading,
   Stack,
-  Text,
-  Wrap,
-  WrapItem
+  Text
 } from '@chakra-ui/react'
 import { format } from 'date-fns'
 
