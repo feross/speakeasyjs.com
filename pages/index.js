@@ -39,11 +39,11 @@ const HomePage = ({ currentEvent, nextEvent }) => {
 
           <Stack spacing={8} align='center'>
             <Heading as='h1' size='xl' mt={[0, 4, 6]} textAlign='center'>
-              Psst... You've found it.
+              Psst... you've found it.
             </Heading>
 
             <Text fontSize='xl' textAlign='center'>
-              This is the JavaScript meetup for 🥼&nbsp;mad science, 🧙‍♂️&nbsp;hacking, and 🧪&nbsp;experiments.
+              <Text as='strong'><Text as='u'>Speakeasy JS</Text></Text> is the JavaScript meetup for 🥼&nbsp;mad science, 🧙‍♂️&nbsp;hacking, and 🧪&nbsp;experiments.
             </Text>
 
             <Text fontSize='xl' textAlign='center'>
@@ -75,7 +75,7 @@ const HomePage = ({ currentEvent, nextEvent }) => {
 
           <Stack spacing={8} align='center'>
             <Heading as='h1' size='lg' textAlign='center'>
-              Get your ticket to the party!
+              You're invited, but keep it a secret
             </Heading>
             <ButtonLink
               colorScheme={colorScheme}
@@ -86,39 +86,29 @@ const HomePage = ({ currentEvent, nextEvent }) => {
             </ButtonLink>
           </Stack>
 
-          <Wrap justify='center'>
-            <WrapItem>
-              <ButtonLink
-                href='/talks'
-              >
-                Past Talks
-              </ButtonLink>
-            </WrapItem>
-            <WrapItem>
-              <ButtonLink
-                href='https://calendar.google.com/calendar?cid=MXNrMmtvOWRqMnNhNzNsN20xbnFudWJydjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'
-              >
-                Add to Google Calendar
-              </ButtonLink>
-            </WrapItem>
-            <WrapItem>
-              <ButtonLink
-                href='https://calendar.google.com/calendar/ical/1sk2ko9dj2sa73l7m1nqnubrv4%40group.calendar.google.com/public/basic.ics'
-              >
-                Download .ical file
-              </ButtonLink>
-            </WrapItem>
-            <WrapItem>
-              <ButtonLink
-                href='https://twitter.com/Speakeasy_JS'
-              >
-                Follow @Speakeasy_JS
-              </ButtonLink>
-            </WrapItem>
-            <WrapItem>
-              <ColorModeButton />
-            </WrapItem>
-          </Wrap>
+          <Stack direction='row' align='center'>
+            <ButtonLink
+              href='/talks'
+            >
+              Past Talks
+            </ButtonLink>
+            <ButtonLink
+              href='https://twitter.com/Speakeasy_JS'
+            >
+              Follow @Speakeasy_JS
+            </ButtonLink>
+            <ButtonLink
+              href='https://calendar.google.com/calendar?cid=MXNrMmtvOWRqMnNhNzNsN20xbnFudWJydjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'
+            >
+              Add to Google Calendar
+            </ButtonLink>
+            <ButtonLink
+              href='https://calendar.google.com/calendar/ical/1sk2ko9dj2sa73l7m1nqnubrv4%40group.calendar.google.com/public/basic.ics'
+            >
+              Add to Calendar.app
+            </ButtonLink>
+            <ColorModeButton />
+          </Stack>
         </Stack>
       </Container>
     </Box>
