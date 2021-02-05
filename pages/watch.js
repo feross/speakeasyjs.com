@@ -50,6 +50,8 @@ const WatchPage = ({ currentEvent }) => {
 
       <Container maxWidth='4xl'>
         <Stack spacing={20} align='center'>
+          <Heading>We're starting 15 minutes late today, at 4:15pm PT</Heading>
+
           <Box
             id='twitch-embed'
             width='full'

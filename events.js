@@ -271,7 +271,7 @@ export const events = [
         time: '4:00',
         title: 'Lavamoat: Securing your dependency graph',
         name: 'Kumavis',
-        twitter: 'kumavis'
+        twitter: 'kumavis_'
       },
       {
         time: '4:40',
