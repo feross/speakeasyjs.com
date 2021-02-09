@@ -281,6 +281,7 @@ export const events = [
   },
   {
     date: '2021-02-05',
+    youtube: 'GnuJkbLkYnw',
     schedule: [
       {
         time: '4:00',
