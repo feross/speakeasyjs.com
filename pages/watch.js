@@ -14,8 +14,9 @@ import { ButtonLink } from '../components/ButtonLink'
 // import { Event } from '../components/Event'
 import { Header } from '../components/Header'
 
-import { getCurrentEvent } from '../lib/events'
-import { colorScheme } from '../theme'
+import { theme } from '../theme'
+
+const { colorScheme } = theme.site
 
 // <Heading as='h1' size='xl' mt={[0, 4, 6]} textAlign='center'>
 //   You've found it. Here's what's going down.
@@ -24,7 +25,7 @@ import { colorScheme } from '../theme'
 //   event={currentEvent}
 // />
 
-const WatchPage = ({ currentEvent }) => {
+const WatchPage = () => {
   useEffect(() => {
     ;(async () => {
       await loadScript('https://embed.twitch.tv/embed/v1.js')
@@ -50,8 +51,6 @@ const WatchPage = ({ currentEvent }) => {
 
       <Container maxWidth='4xl'>
         <Stack spacing={20} align='center'>
-          <Heading>We're starting 15 minutes late today, at 4:15pm PT</Heading>
-
           <Box
             id='twitch-embed'
             width='full'
@@ -82,8 +81,7 @@ export async function getServerSideProps (ctx) {
   return {
     props: {
       title: 'Watch Now',
-      description: 'Watch Speakeasy JS now',
-      currentEvent: getCurrentEvent()
+      description: 'Watch Speakeasy JS now'
     }
   }
 }

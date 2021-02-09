@@ -8,20 +8,21 @@ import {
 import { format } from 'date-fns'
 
 import { ButtonLink } from '../components/ButtonLink'
-import { ColorModeButton } from '../components/ColorModeButton'
 import { Event } from '../components/Event'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 
-import { colorScheme } from '../theme'
+import { theme } from '../theme'
 import { getCurrentEvent, getNextEvent } from '../lib/events'
 import { parseDate } from '../lib/date'
 
+const { colorScheme } = theme.site
+
 const HomePage = ({ currentEvent, nextEvent }) => {
   const currentEventDate = currentEvent &&
-    format(parseDate(currentEvent.date), 'LLLL d')
+    format(parseDate(currentEvent.date), 'LLL d')
   const nextEventDate = nextEvent &&
-    format(parseDate(nextEvent.date), 'LLLL d')
+    format(parseDate(nextEvent.date), 'LLL d')
 
   return (
     <Box
@@ -33,47 +34,43 @@ const HomePage = ({ currentEvent, nextEvent }) => {
       <Footer />
 
       <Container maxWidth='4xl'>
-        <Stack spacing={20} align='center'>
+        <Stack spacing={16} align='center'>
 
-          <Stack spacing={8} align='center'>
-            <Heading as='h1' size='xl' mt={[0, 4, 6]} textAlign='center'>
-              Psst... you've found it.
-            </Heading>
+          <Heading as='h1' size='xl' mt={[0, 4, 6]} textAlign='center'>
+            Psst... you've found it.
+          </Heading>
 
-            <Text fontSize='xl' textAlign='center'>
-              <Text as='strong'><Text as='u'>Speakeasy JS</Text></Text> is the JavaScript meetup for 🥼&nbsp;mad science, 🧙‍♂️&nbsp;hacking, and 🧪&nbsp;experiments.
-            </Text>
-
-            <Text fontSize='xl' textAlign='center'>
-              Hang out virtually on <Text as='strong'><Text as='u'>Friday at 4pm Pacific Time</Text></Text> each week.
-            </Text>
-          </Stack>
+          <Text fontSize='xl' textAlign='center'>
+            <Text as='strong'><Text as='u'>Speakeasy JS</Text></Text> is the JavaScript meetup for 🥼&nbsp;mad science, 🧙‍♂️&nbsp;hacking, and 🧪&nbsp;experiments.<br />We hang out virtually on <Text as='strong'><Text as='u'>Friday at 4pm Pacific Time</Text></Text> each week.
+          </Text>
 
           {currentEvent &&
-            <Stack spacing={8} align='center'>
-              <Heading as='h1' size='lg' textAlign='center'>
-                Here's what's going down <Text as='em'><Text as='u'>this Friday</Text></Text> ({currentEventDate})
+            <>
+              <Heading as='h2' size='lg' textAlign='center'>
+                ✨ Here's what's happening <Text as='em'><Text as='u'>this Friday</Text></Text> {currentEventDate} ✨
               </Heading>
 
               <Event
                 event={currentEvent}
+                w={['full', null, 'xl']}
               />
-            </Stack>}
+            </>}
 
           {nextEvent &&
-            <Stack spacing={8} align='center'>
-              <Heading as='h1' size='lg' textAlign='center'>
-                And here's a sneak peak of <Text as='em'><Text as='u'>next Friday</Text></Text> ({nextEventDate})
+            <>
+              <Heading as='h2' size='lg' textAlign='center'>
+                ✨ And here's a sneak peak of <Text as='em'><Text as='u'>next Friday</Text></Text> {nextEventDate} ✨
               </Heading>
 
               <Event
                 event={nextEvent}
+                w={['full', null, 'xl']}
               />
-            </Stack>}
+            </>}
 
-          <Stack spacing={8} align='center'>
+          <>
             <Heading as='h1' size='lg' textAlign='center'>
-              You're invited, but keep it a secret
+              🎟 You're invited, but shhh... keep it a secret 🎟
             </Heading>
             <ButtonLink
               colorScheme={colorScheme}
@@ -82,7 +79,7 @@ const HomePage = ({ currentEvent, nextEvent }) => {
             >
               Get a free ticket
             </ButtonLink>
-          </Stack>
+          </>
 
           <Stack direction='row' align='center'>
             <ButtonLink
@@ -105,7 +102,6 @@ const HomePage = ({ currentEvent, nextEvent }) => {
             >
               Add to Calendar.app
             </ButtonLink>
-            <ColorModeButton />
           </Stack>
         </Stack>
       </Container>

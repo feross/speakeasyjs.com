@@ -6,7 +6,9 @@ import {
 
 import { ButtonLink } from './ButtonLink'
 
-import { colorScheme } from '../theme'
+import { theme } from '../theme'
+
+const { colorScheme } = theme.site
 
 export const Footer = props => {
   const _isDesktop = useBreakpointValue([false, false, true])

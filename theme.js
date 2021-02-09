@@ -1,7 +1,14 @@
-import { extendTheme } from '@chakra-ui/react'
+import { extendTheme, theme as chakraTheme } from '@chakra-ui/react'
 
-export const theme = extendTheme({})
+const colorScheme = 'yellow'
 
-export const colorScheme = 'yellow'
-
-export const siteColor = theme.colors[colorScheme]['500']
+export const theme = extendTheme({
+  config: {
+    initialColorMode: 'dark',
+    useSystemColorMode: false
+  },
+  site: {
+    colorScheme: colorScheme,
+    primaryColor: chakraTheme.colors[colorScheme]['500']
+  }
+})

@@ -2,14 +2,13 @@ import {
   Avatar,
   Box,
   Stack,
-  Text,
-  useColorModeValue
+  Text
 } from '@chakra-ui/react'
 
 import { Link } from '../components/Link'
 
 export const Event = ({ event, ...rest }) => (
-  <Stack spacing={8} {...rest}>
+  <Stack spacing={[4, null, 8]} {...rest}>
     {event.schedule.map(item => (
       <EventItem key={item.time} item={item} />
     ))}
@@ -17,41 +16,45 @@ export const Event = ({ event, ...rest }) => (
 )
 
 const EventItem = ({ item }) => {
-  const grayColor = useColorModeValue('blackAlpha.700', 'whiteAlpha.700')
+  const href = item.twitter
+    ? `https://twitter.com/${item.twitter}`
+    : item.github
+      ? `https://github.com/${item.github}`
+      : '#'
+  const src = item.github
+    ? `https://github.com/${item.github}.png`
+    : null
 
   return (
-    <Stack direction={['column', 'row']}>
+    <Stack spacing={[4, null, 8]} direction={['column', 'row']}>
       <Box
-        color={grayColor}
-        mr={[0, 6]}
-        mb={[4, 0]}
+        color='whiteAlpha.600'
         textAlign={['center', 'right']}
         whiteSpace='nowrap'
       >
         {item.time} PM
       </Box>
 
-      <Stack
-        maxWidth='md'
-      >
+      <Stack spacing={4}>
         <Box textAlign={['center', 'left']}>
-          <Text as='strong'>{item.title}</Text>
+          <Text as='strong' fontSize='xl'>{item.title}</Text>
         </Box>
 
         {item.name &&
           <>
-            <Link href={item.twitter ? `https://twitter.com/${item.twitter}` : item.github ? `https://github.com/${item.github}` : '#'} showExternalIcon={false}>
+            <Link href={href} showExternalIcon={false}>
               <Stack
                 direction='row'
                 justify={['center', 'flex-start']}
                 align='center'
+                spacing={4}
               >
                 <Avatar
                   name={item.name}
-                  src={item.github ? `https://github.com/${item.github}.png` : null}
-                  size='sm'
+                  src={src}
+                  size='md'
                 />
-                <Box fontSize='md' color={grayColor}>
+                <Box fontSize='lg' color='whiteAlpha.800'>
                   {item.name}
                 </Box>
               </Stack>

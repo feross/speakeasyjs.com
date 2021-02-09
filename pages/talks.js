@@ -25,10 +25,12 @@ const TalksPage = ({ pastEvents }) => {
 
       <Container maxWidth='4xl'>
         <Stack spacing={20}>
+          <Heading align='center'>Past Talks</Heading>
+
           {pastEvents.map(event => (
             <Box key={event.date}>
               <Heading as='h1' size='lg' textAlign='center' mb={8}>
-                {format(parseDate(event.date), 'EEEE LLLL d, yyyy')}
+                {format(parseDate(event.date), 'EEEE LLL d, yyyy')}
               </Heading>
               <Stack
                 spacing={8}
@@ -38,7 +40,7 @@ const TalksPage = ({ pastEvents }) => {
               >
                 <Event
                   event={event}
-                  minWidth={64}
+                  w={['full', 'full', 'xl']}
                 />
                 {event.youtube &&
                   <iframe

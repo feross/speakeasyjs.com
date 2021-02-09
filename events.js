@@ -16,10 +16,6 @@ export const events = [
         name: 'Mikola Lysenko',
         twitter: 'MikolaLysenko',
         github: 'mikolalysenko'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -40,10 +36,6 @@ export const events = [
         name: 'Andrew Osheroff',
         twitter: 'andrewosh',
         github: 'andrewosh'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -64,10 +56,6 @@ export const events = [
         name: 'John Hiesey',
         twitter: 'jhiesey',
         github: 'jhiesey'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -87,10 +75,6 @@ export const events = [
         title: 'The Deno security model',
         name: 'Ryan Dahl',
         github: 'ry'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -104,10 +88,6 @@ export const events = [
         name: 'Matt McKegg',
         twitter: 'NOISEISSUES',
         github: 'mmckegg'
-      },
-      {
-        time: '5:00',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -121,10 +101,6 @@ export const events = [
         name: 'Fred K Schott',
         twitter: 'FredKSchott',
         github: 'FredKSchott'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -138,10 +114,6 @@ export const events = [
         name: 'James Halliday (substack)',
         twitter: 'substack',
         github: 'substack'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -155,10 +127,6 @@ export const events = [
         name: 'Dandelion',
         twitter: 'decentralion',
         github: 'decentralion'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -172,10 +140,6 @@ export const events = [
         name: 'Suz Hinton',
         twitter: 'noopkat',
         github: 'noopkat'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -189,10 +153,6 @@ export const events = [
         name: 'Hemanth HM',
         twitter: 'GNUmanth',
         github: 'hemanth'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -206,10 +166,6 @@ export const events = [
         name: 'Elena Nadolinski',
         twitter: 'leanthebean',
         github: 'leanthebean'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -223,10 +179,6 @@ export const events = [
         name: 'John Hiesey',
         twitter: 'jhiesey',
         github: 'jhiesey'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -240,10 +192,6 @@ export const events = [
         name: 'Jordan Eldredge',
         twitter: 'captbaritone',
         github: 'captbaritone'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -257,10 +205,6 @@ export const events = [
         name: 'Mauve',
         twitter: 'RangerMauve',
         github: 'RangerMauve'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -274,10 +218,6 @@ export const events = [
         name: 'Brooklyn Zelenka',
         twitter: 'expede',
         github: 'expede'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -291,10 +231,6 @@ export const events = [
         name: 'Kumavis',
         twitter: 'kumavis_',
         github: 'kumavis'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -308,10 +244,6 @@ export const events = [
         name: 'Adam Baldwin',
         twitter: 'adam_baldwin',
         github: 'evilpacket'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -324,10 +256,6 @@ export const events = [
         name: 'Darcy Clarke',
         twitter: 'darcy',
         github: 'darcyclarke'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -340,10 +268,6 @@ export const events = [
         name: 'Rafael Specht',
         twitter: 'rafael_sps',
         github: 'rssilva'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -356,10 +280,6 @@ export const events = [
         name: 'Simon Willison',
         twitter: 'simonw',
         github: 'simonw'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -371,10 +291,6 @@ export const events = [
         title: 'TODO',
         name: 'TODO',
         twitter: 'TODO'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -386,10 +302,6 @@ export const events = [
         title: 'TODO',
         name: 'TODO',
         twitter: 'TODO'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -402,10 +314,6 @@ export const events = [
         name: 'Mathius Buus',
         twitter: 'mafintosh',
         github: 'mafintosh'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   },
@@ -418,10 +326,6 @@ export const events = [
         name: 'Karissa McKelvey',
         twitter: 'okdistribute',
         github: 'okdistribute'
-      },
-      {
-        time: '4:40',
-        title: 'Social Happy Hour'
       }
     ]
   }

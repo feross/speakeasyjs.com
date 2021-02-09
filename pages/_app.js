@@ -2,7 +2,7 @@
 import Head from 'next/head'
 import { ChakraProvider } from '@chakra-ui/react'
 
-import { siteColor, theme } from '../theme'
+import { theme } from '../theme'
 import { track } from '../lib/analytics'
 
 import {
@@ -16,6 +16,7 @@ import {
 } from '../config'
 
 globalThis.theme = theme
+const { primaryColor } = theme.site
 
 function MyApp ({ Component, pageProps }) {
   let {
@@ -43,9 +44,9 @@ function MyApp ({ Component, pageProps }) {
         <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
         <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
         <link rel='manifest' href='/site.webmanifest' />
-        <link rel='mask-icon' href='/safari-pinned-tab.svg' color={siteColor} />
-        <meta name='msapplication-TileColor' content={siteColor} />
-        <meta name='theme-color' content={siteColor} />
+        <link rel='mask-icon' href='/safari-pinned-tab.svg' color={primaryColor} />
+        <meta name='msapplication-TileColor' content={primaryColor} />
+        <meta name='theme-color' content={primaryColor} />
 
         <meta property='og:title' content={title} />
         <meta property='og:description' content={description} />

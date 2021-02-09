@@ -10,8 +10,10 @@ import {
 import { ButtonLink } from './ButtonLink'
 import { Link } from './Link'
 
-import { colorScheme } from '../theme'
+import { theme } from '../theme'
 import { siteName, siteImage } from '../config'
+
+const { colorScheme } = theme.site
 
 export const Header = ({
   showBuyButton = true,
