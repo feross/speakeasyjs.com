@@ -293,22 +293,22 @@ export const events = [
         title: 'Social Happy Hour'
       }
     ]
+  },
+  {
+    date: '2021-02-12',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'What\'s new in npm 7',
+        name: 'Darcy Clarke',
+        twitter: 'darcy'
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
   }
-  // {
-  //   date: '2021-02-12',
-  //   schedule: [
-  //     {
-  //       time: '4:00',
-  //       title: 'TODO',
-  //       name: 'TODO',
-  //       twitter: 'TODO'
-  //     },
-  //     {
-  //       time: '4:40',
-  //       title: 'Social Happy Hour'
-  //     }
-  //   ]
-  // },
   // {
   //   date: '2021-02-19',
   //   schedule: [
