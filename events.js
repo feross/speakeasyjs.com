@@ -309,97 +309,97 @@ export const events = [
         title: 'Social Happy Hour'
       }
     ]
+  },
+  {
+    date: '2021-02-19',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'A Gift of Sound and Vision — Affecting images using the Web Audio API',
+        name: 'Rafael Specht',
+        twitter: 'rafael_sps'
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2021-02-26',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO'
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2021-03-05',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO'
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2021-03-12',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO'
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2021-03-19',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'Secret topic',
+        name: 'Mathius Buus',
+        twitter: 'mafintosh'
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
+  },
+  {
+    date: '2021-03-26',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'Karissa McKelvey',
+        twitter: 'okdistribute'
+      },
+      {
+        time: '4:40',
+        title: 'Social Happy Hour'
+      }
+    ]
   }
-  // {
-  //   date: '2021-02-19',
-  //   schedule: [
-  //     {
-  //       time: '4:00',
-  //       title: 'TODO',
-  //       name: 'TODO',
-  //       twitter: 'TODO'
-  //     },
-  //     {
-  //       time: '4:40',
-  //       title: 'Social Happy Hour'
-  //     }
-  //   ]
-  // },
-  // {
-  //   date: '2021-02-26',
-  //   schedule: [
-  //     {
-  //       time: '4:00',
-  //       title: 'TODO',
-  //       name: 'TODO',
-  //       twitter: 'TODO'
-  //     },
-  //     {
-  //       time: '4:40',
-  //       title: 'Social Happy Hour'
-  //     }
-  //   ]
-  // },
-  // {
-  //   date: '2021-03-05',
-  //   schedule: [
-  //     {
-  //       time: '4:00',
-  //       title: 'TODO',
-  //       name: 'TODO',
-  //       twitter: 'TODO'
-  //     },
-  //     {
-  //       time: '4:40',
-  //       title: 'Social Happy Hour'
-  //     }
-  //   ]
-  // },
-  // {
-  //   date: '2021-03-12',
-  //   schedule: [
-  //     {
-  //       time: '4:00',
-  //       title: 'TODO',
-  //       name: 'TODO',
-  //       twitter: 'TODO'
-  //     },
-  //     {
-  //       time: '4:40',
-  //       title: 'Social Happy Hour'
-  //     }
-  //   ]
-  // },
-  // {
-  //   date: '2021-03-19',
-  //   schedule: [
-  //     {
-  //       time: '4:00',
-  //       title: 'TODO',
-  //       name: 'TODO',
-  //       twitter: 'TODO'
-  //     },
-  //     {
-  //       time: '4:40',
-  //       title: 'Social Happy Hour'
-  //     }
-  //   ]
-  // },
-  // {
-  //   date: '2021-03-26',
-  //   schedule: [
-  //     {
-  //       time: '4:00',
-  //       title: 'TODO',
-  //       name: 'TODO',
-  //       twitter: 'TODO'
-  //     },
-  //     {
-  //       time: '4:40',
-  //       title: 'Social Happy Hour'
-  //     }
-  //   ]
-  // }
 ]
 
 // TODO:
