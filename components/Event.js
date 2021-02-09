@@ -40,7 +40,7 @@ const EventItem = ({ item }) => {
 
         {item.name &&
           <>
-            <Link href={item.site || `https://twitter.com/${item.twitter}`} showExternalIcon={false}>
+            <Link href={item.twitter ? `https://twitter.com/${item.twitter}` : item.github ? `https://github.com/${item.github}` : '#'} showExternalIcon={false}>
               <Stack
                 direction='row'
                 justify={['center', 'flex-start']}
@@ -48,7 +48,7 @@ const EventItem = ({ item }) => {
               >
                 <Avatar
                   name={item.name}
-                  src={item.twitter ? `https://twivatar.glitch.me/${item.twitter}` : null}
+                  src={item.github ? `https://github.com/${item.github}.png` : null}
                   size='sm'
                 />
                 <Box fontSize='md' color={grayColor}>
