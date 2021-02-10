@@ -355,6 +355,89 @@ export const events = [
       }
     ]
   },
+  {
+    date: '2021-04-16',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO',
+        github: 'TODO'
+      }
+    ]
+  },
+  {
+    date: '2021-04-23',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO',
+        github: 'TODO'
+      }
+    ]
+  },
+  {
+    date: '2021-04-30',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO',
+        github: 'TODO'
+      }
+    ]
+  },
+  {
+    date: '2021-05-07',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO',
+        github: 'TODO'
+      }
+    ]
+  },
+  {
+    date: '2021-05-14',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO',
+        github: 'TODO'
+      }
+    ]
+  },
+  {
+    date: '2021-05-21',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO',
+        github: 'TODO'
+      }
+    ]
+  },
+  {
+    date: '2021-05-28',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO',
+        github: 'TODO'
+      }
+    ]
   }
 ]
 
