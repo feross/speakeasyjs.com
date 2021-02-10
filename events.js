@@ -299,9 +299,10 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'TODO',
-        name: 'TODO',
-        twitter: 'TODO'
+        title: 'Infinite Mosaic – Infinite tiling of artworks',
+        name: 'Gabriel Fürstenheim',
+        twitter: 'furstenheim',
+        github: 'furstenheim'
       }
     ]
   },
