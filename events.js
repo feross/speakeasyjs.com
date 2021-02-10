@@ -289,8 +289,9 @@ export const events = [
       {
         time: '4:00',
         title: 'TODO',
-        name: 'TODO',
-        twitter: 'TODO'
+        name: 'Andrea Giammarchi',
+        twitter: 'WebReflection',
+        github: 'WebReflection'
       }
     ]
   },
