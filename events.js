@@ -343,6 +343,18 @@ export const events = [
       }
     ]
   },
+  {
+    date: '2021-04-09',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'Giuseppe Gurgone',
+        twitter: 'giuseppegurgone',
+        github: 'giuseppeg'
+      }
+    ]
+  },
   }
 ]
 
