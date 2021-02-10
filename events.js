@@ -330,6 +330,19 @@ export const events = [
         github: 'okdistribute'
       }
     ]
+  },
+  {
+    date: '2021-04-02',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'Embryos',
+        name: 'Noor Siddiqui',
+        twitter: 'noor_siddiqui_',
+        github: 'nfsiddiqui'
+      }
+    ]
+  },
   }
 ]
 
