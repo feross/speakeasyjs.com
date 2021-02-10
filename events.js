@@ -252,7 +252,7 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'What\'s new in npm 7',
+        title: 'npm update – What\'s new in npm 7',
         name: 'Darcy Clarke',
         twitter: 'darcy',
         github: 'darcyclarke'
