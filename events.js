@@ -348,7 +348,7 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'TODO',
+        title: 'Synchronizing Async Functions in Node.js',
         name: 'Giuseppe Gurgone',
         twitter: 'giuseppegurgone',
         github: 'giuseppeg'
