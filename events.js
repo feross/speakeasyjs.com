@@ -372,10 +372,10 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'TODO',
-        name: 'TODO',
-        twitter: 'TODO',
-        github: 'TODO'
+        title: 'James Kyburz',
+        name: 'Attempting a distributed append-only log in a serverless world',
+        twitter: 'JamesKyburz',
+        github: 'JamesKyburz'
       }
     ]
   },
