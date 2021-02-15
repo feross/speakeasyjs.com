@@ -361,10 +361,10 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'TODO',
-        name: 'TODO',
-        twitter: 'TODO',
-        github: 'TODO'
+        title: 'Reverse-engineering Notion\'s API',
+        name: 'Travis Fischer',
+        twitter: 'transitive_bs',
+        github: 'transitive-bullshit'
       }
     ]
   },
