@@ -262,6 +262,7 @@ export const events = [
   },
   {
     date: '2021-02-19',
+    youtube: 'Dr5whkGNY5o',
     schedule: [
       {
         time: '4:00',
