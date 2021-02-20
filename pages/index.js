@@ -59,7 +59,7 @@ const HomePage = ({ currentEvent, nextEvent }) => {
           {nextEvent &&
             <>
               <Heading as='h2' size='lg' textAlign='center'>
-                ✨ And here's a sneak peak of <Text as='em'><Text as='u'>next Friday</Text></Text> {nextEventDate} ✨
+                ✨ And here's a sneak peek of <Text as='em'><Text as='u'>next Friday</Text></Text> {nextEventDate} ✨
               </Heading>
 
               <Event
