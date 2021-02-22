@@ -290,7 +290,7 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'TODO',
+        title: 'LinkeDOM – A triple-linked lists based DOM',
         name: 'Andrea Giammarchi',
         twitter: 'WebReflection',
         github: 'WebReflection'
