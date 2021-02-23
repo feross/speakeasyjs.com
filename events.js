@@ -410,10 +410,10 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'TODO',
-        name: 'TODO',
-        twitter: 'TODO',
-        github: 'TODO'
+        title: 'Kappa Drive - Making a set of hyperdrives appear to be a single one',
+        name: 'Peg & Kieran from Magma Collective',
+        twitter: 'coboxcoop',
+        github: 'coboxcoop'
       }
     ]
   },
