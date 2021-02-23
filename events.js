@@ -398,10 +398,10 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'TODO',
-        name: 'TODO',
-        twitter: 'TODO',
-        github: 'TODO'
+        title: 'HashQL – Chuck Norris can access the DB from the UI',
+        name: 'Rasmus Porsager',
+        twitter: 'rporsager',
+        github: 'porsager'
       }
     ]
   },
