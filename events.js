@@ -314,10 +314,10 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Secret topic',
-        name: 'Mathius Buus',
-        twitter: 'mafintosh',
-        github: 'mafintosh'
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO',
+        github: 'TODO'
       }
     ]
   },
