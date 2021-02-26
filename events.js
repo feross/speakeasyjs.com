@@ -440,6 +440,66 @@ export const events = [
         github: 'TODO'
       }
     ]
+  },
+  {
+    date: '2021-06-04',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO',
+        github: 'TODO'
+      }
+    ]
+  },
+  {
+    date: '2021-06-11',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO',
+        github: 'TODO'
+      }
+    ]
+  },
+  {
+    date: '2021-06-18',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO',
+        github: 'TODO'
+      }
+    ]
+  },
+  {
+    date: '2021-06-25',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO',
+        github: 'TODO'
+      }
+    ]
+  },
+  {
+    date: '2021-07-02',
+    schedule: [
+      {
+        time: '4:00',
+        title: 'TODO',
+        name: 'TODO',
+        twitter: 'TODO',
+        github: 'TODO'
+      }
+    ]
   }
 ]
 
