@@ -275,6 +275,7 @@ export const events = [
   },
   {
     date: '2021-02-26',
+    youtube: 'JyOYqJGrWak',
     schedule: [
       {
         time: '4:00',
