@@ -331,7 +331,7 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'TODO',
+        title: 'Secret topic',
         name: 'Karissa McKelvey',
         twitter: 'okdistribute',
         github: 'okdistribute'
