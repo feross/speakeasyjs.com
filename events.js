@@ -319,10 +319,10 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'TODO',
-        name: 'TODO',
-        twitter: 'TODO',
-        github: 'TODO'
+        title: 'Parts of the Metaverse',
+        name: 'Adrian Biedrzycki (Avaer)',
+        twitter: 'webmixedreality',
+        github: 'avaer'
       }
     ]
   },
