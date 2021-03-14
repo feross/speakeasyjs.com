@@ -320,7 +320,7 @@ export const events = [
       {
         time: '4:00',
         title: 'Parts of the Metaverse',
-        name: 'Adrian Biedrzycki (Avaer)',
+        name: 'Avaer Kazmer',
         twitter: 'webmixedreality',
         github: 'avaer'
       }
