@@ -331,10 +331,24 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Secret topic',
-        name: 'Karissa McKelvey',
-        twitter: 'okdistribute',
-        github: 'okdistribute'
+        title: 'Flipping scaling on its head with Peermaps',
+        speakers: [
+          {
+            name: 'Karissa McKelvey',
+            twitter: 'okdistribute',
+            github: 'okdistribute'
+          },
+          {
+            name: 'Marina Kusko',
+            twitter: 'marinakukso',
+            github: 'mk30'
+          },
+          {
+            name: 'James Halliday',
+            twitter: 'substack',
+            github: 'substack'
+          }
+        ]
       }
     ]
   },
