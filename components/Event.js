@@ -46,7 +46,8 @@ const EventItem = ({ item }) => {
       <Box
         color='whiteAlpha.600'
         textAlign={['center', 'right']}
-        whiteSpace='nowrap'>
+        whiteSpace='nowrap'
+      >
         {item.time} PM
       </Box>
 
