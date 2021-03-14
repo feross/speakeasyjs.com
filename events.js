@@ -149,7 +149,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Future Features In JavaScript? Let\'s discuss some of the TC39 proposals',
+        title:
+          "Future Features In JavaScript? Let's discuss some of the TC39 proposals",
         name: 'Hemanth HM',
         twitter: 'GNUmanth',
         github: 'hemanth'
@@ -253,7 +254,7 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'npm update – What\'s new in npm 7',
+        title: "npm update – What's new in npm 7",
         name: 'Darcy Clarke',
         twitter: 'darcy',
         github: 'darcyclarke'
@@ -266,7 +267,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'A Gift of Sound and Vision — Affecting images using the Web Audio API',
+        title:
+          'A Gift of Sound and Vision — Affecting images using the Web Audio API',
         name: 'Rafael Specht',
         twitter: 'rafael_sps',
         github: 'rssilva'
@@ -301,6 +303,7 @@ export const events = [
   },
   {
     date: '2021-03-12',
+    youtube: '3rhUG1qRYKM',
     schedule: [
       {
         time: '4:00',
@@ -364,7 +367,7 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Reverse-engineering Notion\'s API',
+        title: "Reverse-engineering Notion's API",
         name: 'Travis Fischer',
         twitter: 'transitive_bs',
         github: 'transitive-bullshit'
@@ -412,7 +415,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Kappa Drive - Making a set of hyperdrives appear to be a single one',
+        title:
+          'Kappa Drive - Making a set of hyperdrives appear to be a single one',
         name: 'Peg & Kieran from Magma Collective',
         twitter: 'coboxcoop',
         github: 'coboxcoop'
