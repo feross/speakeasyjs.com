@@ -339,7 +339,7 @@ export const events = [
             github: 'okdistribute'
           },
           {
-            name: 'Marina Kusko',
+            name: 'Marina Kukso',
             twitter: 'marinakukso',
             github: 'mk30'
           },
