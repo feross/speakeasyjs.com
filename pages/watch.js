@@ -18,13 +18,6 @@ import { theme } from '../theme'
 
 const { colorScheme } = theme.site
 
-// <Heading as='h1' size='xl' mt={[0, 4, 6]} textAlign='center'>
-//   You've found it. Here's what's going down.
-// </Heading>
-// <Event
-//   event={currentEvent}
-// />
-
 const WatchPage = () => {
   useEffect(() => {
     ;(async () => {
@@ -48,6 +41,14 @@ const WatchPage = () => {
       fontSize='lg'
     >
       <Header showBuyButton={false} />
+
+      <Heading as='h1' size='xl' mt={[0, 4, 6]} textAlign='center'>
+        Our speaker cancelled at the last minute, so no event this week.
+      </Heading>
+
+      <Heading as='h1' size='xl' mt={[0, 4, 6]} textAlign='center'>
+        See you next week!
+      </Heading>
 
       <Container maxWidth='4xl'>
         <Stack spacing={20} align='center'>

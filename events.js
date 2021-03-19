@@ -315,18 +315,6 @@ export const events = [
     ]
   },
   {
-    date: '2021-03-19',
-    schedule: [
-      {
-        time: '4:00',
-        title: '...',
-        name: '...',
-        twitter: 'feross',
-        github: 'feross'
-      }
-    ]
-  },
-  {
     date: '2021-03-26',
     schedule: [
       {
