@@ -345,7 +345,7 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Embryos',
+        title: 'AI, Genomics, and the Future of IVF',
         name: 'Noor Siddiqui',
         twitter: 'noor_siddiqui_',
         github: 'nfsiddiqui'
