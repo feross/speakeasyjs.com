@@ -98,7 +98,7 @@ export const events = [
       {
         time: '4:00',
         title: 'Snowpack: Faster web tooling, powered by ESM',
-        name: 'Fred K Schott',
+        name: 'Fred K. Schott',
         twitter: 'FredKSchott',
         github: 'FredKSchott'
       }
@@ -359,7 +359,7 @@ export const events = [
       {
         time: '4:00',
         title: 'Astro – A New Architecture for the Modern Web',
-        name: 'Fred Schott',
+        name: 'Fred K. Schott',
         twitter: 'FredKSchott',
         github: 'FredKSchott'
       }
