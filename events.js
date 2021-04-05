@@ -358,7 +358,7 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Astro – A New Architecture for the Modern Web',
+        title: 'Astro: A New Architecture for the Modern Web',
         name: 'Fred K. Schott',
         twitter: 'FredKSchott',
         github: 'FredKSchott'
@@ -406,7 +406,7 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'HashQL – Chuck Norris can access the DB from the UI',
+        title: 'HashQL: Chuck Norris can access the DB from the UI',
         name: 'Rasmus Porsager',
         twitter: 'rporsager',
         github: 'porsager'
@@ -419,7 +419,7 @@ export const events = [
       {
         time: '4:00',
         title:
-          'Kappa Drive - Making a set of hyperdrives appear to be a single one',
+          'Kappa Drive: Making a set of hyperdrives appear to be a single one',
         name: 'Peg & Kieran from Magma Collective',
         twitter: 'coboxcoop',
         github: 'coboxcoop'
