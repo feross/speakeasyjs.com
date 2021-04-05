@@ -358,7 +358,7 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'New project announcement: Astro',
+        title: 'Astro – A New Architecture for the Modern Web',
         name: 'Fred Schott',
         twitter: 'FredKSchott',
         github: 'FredKSchott'
