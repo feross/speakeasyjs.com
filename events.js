@@ -431,10 +431,10 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'TODO',
-        name: 'TODO',
-        twitter: 'TODO',
-        github: 'TODO'
+        title: 'Redbean: Actually Portable Executable Web Server',
+        name: 'Justine Tunney',
+        twitter: 'JustineTunney',
+        github: 'jart'
       }
     ]
   },
@@ -471,6 +471,7 @@ export const events = [
         name: 'TODO',
         twitter: 'TODO',
         github: 'TODO'
+        github: 'ikreymer'
       }
     ]
   },
