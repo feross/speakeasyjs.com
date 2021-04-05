@@ -358,10 +358,10 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Synchronizing Async Functions in Node.js',
-        name: 'Giuseppe Gurgone',
-        twitter: 'giuseppegurgone',
-        github: 'giuseppeg'
+        title: 'New project announcement: Astro',
+        name: 'Fred Schott',
+        twitter: 'FredKSchott',
+        github: 'FredKSchott'
       }
     ]
   },
@@ -394,10 +394,10 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'TODO',
-        name: 'TODO',
-        twitter: 'TODO',
-        github: 'TODO'
+        title: 'Synchronizing Async Functions in Node.js',
+        name: 'Giuseppe Gurgone',
+        twitter: 'giuseppegurgone',
+        github: 'giuseppeg'
       }
     ]
   },
