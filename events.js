@@ -343,6 +343,7 @@ export const events = [
   },
   {
     date: '2021-04-02',
+    youtube: 'AqCXYS-52XA',
     schedule: [
       {
         time: '4:00',
