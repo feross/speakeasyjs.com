@@ -1,8 +1,3 @@
-/* global Twitch */
-
-import { useEffect } from 'react'
-import loadScript from 'load-script2'
-
 import {
   Box,
   Container,
@@ -15,25 +10,11 @@ import { ButtonLink } from '../components/ButtonLink'
 import { Header } from '../components/Header'
 
 import { theme } from '../theme'
+import { Watch } from '../components/Watch.js'
 
 const { colorScheme } = theme.site
 
 const WatchPage = () => {
-  useEffect(() => {
-    ;(async () => {
-      await loadScript('https://embed.twitch.tv/embed/v1.js')
-      window.twitch = new Twitch.Embed('twitch-embed', {
-        width: '100%',
-        height: 600,
-        channel: 'speakeasyjs'
-      })
-    })()
-    return () => {
-      const $twitchEmbed = document.querySelector('#twitch-embed')
-      if ($twitchEmbed) $twitchEmbed.innerHTML = ''
-    }
-  }, [])
-
   return (
     <Box
       px={4}
@@ -44,10 +25,7 @@ const WatchPage = () => {
 
       <Container maxWidth='4xl'>
         <Stack spacing={20} align='center'>
-          <Box
-            id='twitch-embed'
-            width='full'
-          />
+          <Watch width='full' />
 
           <Stack spacing={8} align='center'>
             <Heading as='h1' size='lg' textAlign='center'>

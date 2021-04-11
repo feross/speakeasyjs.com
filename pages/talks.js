@@ -10,8 +10,7 @@ import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 import { Event } from '../components/Event'
 
-import { getPastEvents } from '../lib/events'
-import { parseDate } from '../lib/date'
+import { getPastEvents, parseDate } from '../lib/events'
 
 const TalksPage = ({ pastEvents }) => {
   return (
