@@ -5,15 +5,15 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'ZDAG: A JSON++ compressor',
         name: 'Mikeal Rogers',
+        title: 'ZDAG: A JSON++ compressor',
         twitter: 'mikeal',
         github: 'mikeal'
       },
       {
         time: '4:20',
-        title: 'Muschema: Relativistic serialization for web games',
         name: 'Mikola Lysenko',
+        title: 'Muschema: Relativistic serialization for web games',
         twitter: 'MikolaLysenko',
         github: 'mikolalysenko'
       }
@@ -25,15 +25,15 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Hyperbee: An append-only Btree running on a Hypercore',
         name: 'Mathius Buus',
+        title: 'Hyperbee: An append-only Btree running on a Hypercore',
         twitter: 'mafintosh',
         github: 'mafintosh'
       },
       {
         time: '4:20',
-        title: 'Indexing P2P Sites with Hyperbee',
         name: 'Andrew Osheroff',
+        title: 'Indexing P2P Sites with Hyperbee',
         twitter: 'andrewosh',
         github: 'andrewosh'
       }
@@ -45,15 +45,15 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Acid: a new fun-oriented programming language',
         name: 'Dominic Tarr',
+        title: 'Acid: a new fun-oriented programming language',
         twitter: 'dominictarr',
         github: 'dominictarr'
       },
       {
         time: '4:20',
-        title: 'Xylem: a semi-pure, functional reactive language',
         name: 'John Hiesey',
+        title: 'Xylem: a semi-pure, functional reactive language',
         twitter: 'jhiesey',
         github: 'jhiesey'
       }
@@ -65,15 +65,15 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Content-addressed distributed data structures',
         name: 'Rod Vagg',
+        title: 'Content-addressed distributed data structures',
         twitter: 'rvagg',
         github: 'rvagg'
       },
       {
         time: '4:20',
-        title: 'The Deno security model',
         name: 'Ryan Dahl',
+        title: 'The Deno security model',
         github: 'ry'
       }
     ]
@@ -84,8 +84,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Rust-Powered Live Musical Performance 🎶',
         name: 'Matt McKegg',
+        title: 'Rust-Powered Live Musical Performance 🎶',
         twitter: 'NOISEISSUES',
         github: 'mmckegg'
       }
@@ -97,8 +97,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Snowpack: Faster web tooling, powered by ESM',
         name: 'Fred K. Schott',
+        title: 'Snowpack: Faster web tooling, powered by ESM',
         twitter: 'FredKSchott',
         github: 'FredKSchott'
       }
@@ -110,8 +110,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Building a NTSC/VHS simulator',
         name: 'James Halliday (substack)',
+        title: 'Building a NTSC/VHS simulator',
         twitter: 'substack',
         github: 'substack'
       }
@@ -123,8 +123,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'CredRank: Algorithmic Credit Attribution over Time',
         name: 'Dandelion',
+        title: 'CredRank: Algorithmic Credit Attribution over Time',
         twitter: 'decentralion',
         github: 'decentralion'
       }
@@ -136,8 +136,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Digital preservation in hardware tooling',
         name: 'Suz Hinton',
+        title: 'Digital preservation in hardware tooling',
         twitter: 'noopkat',
         github: 'noopkat'
       }
@@ -149,9 +149,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
+        name: 'Hemanth HM',
         title:
           "Future Features In JavaScript? Let's discuss some of the TC39 proposals",
-        name: 'Hemanth HM',
         twitter: 'GNUmanth',
         github: 'hemanth'
       }
@@ -163,8 +163,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'How we fit our blockchain full node in a web browser',
         name: 'Elena Nadolinski',
+        title: 'How we fit our blockchain full node in a web browser',
         twitter: 'leanthebean',
         github: 'leanthebean'
       }
@@ -176,8 +176,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Restoring a 1960 color TV',
         name: 'John Hiesey',
+        title: 'Restoring a 1960 color TV',
         twitter: 'jhiesey',
         github: 'jhiesey'
       }
@@ -189,8 +189,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Design as an Optimization Problem',
         name: 'Jordan Eldredge',
+        title: 'Design as an Optimization Problem',
         twitter: 'captbaritone',
         github: 'captbaritone'
       }
@@ -202,8 +202,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Using Standard Web APIs to Mix P2P Protocols',
         name: 'Mauve',
+        title: 'Using Standard Web APIs to Mix P2P Protocols',
         twitter: 'RangerMauve',
         github: 'RangerMauve'
       }
@@ -215,8 +215,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'WebNative: How to put a full stack directly in the browser',
         name: 'Brooklyn Zelenka',
+        title: 'WebNative: How to put a full stack directly in the browser',
         twitter: 'expede',
         github: 'expede'
       }
@@ -228,8 +228,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Lavamoat: Securing your dependency graph',
         name: 'Kumavis',
+        title: 'Lavamoat: Securing your dependency graph',
         twitter: 'kumavis_',
         github: 'kumavis'
       }
@@ -241,8 +241,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Attacking Open Source using Abandoned Resources',
         name: 'Adam Baldwin',
+        title: 'Attacking Open Source using Abandoned Resources',
         twitter: 'adam_baldwin',
         github: 'evilpacket'
       }
@@ -254,8 +254,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: "npm update – What's new in npm 7",
         name: 'Darcy Clarke',
+        title: "npm update – What's new in npm 7",
         twitter: 'darcy',
         github: 'darcyclarke'
       }
@@ -267,9 +267,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
+        name: 'Rafael Specht',
         title:
           'A Gift of Sound and Vision — Affecting images using the Web Audio API',
-        name: 'Rafael Specht',
         twitter: 'rafael_sps',
         github: 'rssilva'
       }
@@ -281,8 +281,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'SQL in your client-side JavaScript is a great idea',
         name: 'Simon Willison',
+        title: 'SQL in your client-side JavaScript is a great idea',
         twitter: 'simonw',
         github: 'simonw'
       }
@@ -294,8 +294,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'LinkeDOM – A triple-linked lists based DOM',
         name: 'Andrea Giammarchi',
+        title: 'LinkeDOM – A triple-linked lists based DOM',
         twitter: 'WebReflection',
         github: 'WebReflection'
       }
@@ -307,8 +307,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Infinite Mosaic – Infinite tiling of artworks',
         name: 'Gabriel Fürstenheim',
+        title: 'Infinite Mosaic – Infinite tiling of artworks',
         twitter: 'furstenheim',
         github: 'furstenheim'
       }
@@ -347,8 +347,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'AI, Genomics, and the Future of IVF',
         name: 'Noor Siddiqui',
+        title: 'AI, Genomics, and the Future of IVF',
         twitter: 'noor_siddiqui_',
         github: 'nfsiddiqui'
       }
@@ -359,8 +359,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Astro: A New Architecture for the Modern Web',
         name: 'Fred K. Schott',
+        title: 'Astro: A New Architecture for the Modern Web',
         twitter: 'FredKSchott',
         github: 'FredKSchott'
       }
@@ -371,8 +371,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: "Reverse-engineering Notion's API",
         name: 'Travis Fischer',
+        title: "Reverse-engineering Notion's API",
         twitter: 'transitive_bs',
         github: 'transitive-bullshit'
       }
@@ -383,8 +383,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'James Kyburz',
-        name: 'Attempting a distributed append-only log in a serverless world',
+        name: 'James Kyburz',
+        title: 'Attempting a distributed append-only log in a serverless world',
         twitter: 'JamesKyburz',
         github: 'JamesKyburz'
       }
@@ -395,8 +395,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Synchronizing Async Functions in Node.js',
         name: 'Giuseppe Gurgone',
+        title: 'Synchronizing Async Functions in Node.js',
         twitter: 'giuseppegurgone',
         github: 'giuseppeg'
       }
@@ -407,8 +407,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'HashQL: Chuck Norris can access the DB from the UI',
         name: 'Rasmus Porsager',
+        title: 'HashQL: Chuck Norris can access the DB from the UI',
         twitter: 'rporsager',
         github: 'porsager'
       }
@@ -419,9 +419,9 @@ export const events = [
     schedule: [
       {
         time: '4:00',
+        name: 'Peg & Kieran from Magma Collective',
         title:
           'Kappa Drive: Making a set of hyperdrives appear to be a single one',
-        name: 'Peg & Kieran from Magma Collective',
         twitter: 'coboxcoop',
         github: 'coboxcoop'
       }
@@ -432,8 +432,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Redbean: Actually Portable Executable Web Server',
         name: 'Justine Tunney',
+        title: 'Redbean: Actually Portable Executable Web Server',
         twitter: 'JustineTunney',
         github: 'jart'
       }
@@ -444,8 +444,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'TODO',
         name: 'TODO',
+        title: 'TODO',
         twitter: 'TODO',
         github: 'TODO'
       }
@@ -456,8 +456,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'TODO',
         name: 'TODO',
+        title: 'TODO',
         twitter: 'TODO',
         github: 'TODO'
       }
@@ -468,8 +468,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'Creating high fidelity web archives directly in your browser',
         name: 'Ilya Kreymer',
+        title: 'Creating high fidelity web archives directly in your browser',
         twitter: 'IlyaKreymer',
         github: 'ikreymer'
       }
@@ -480,8 +480,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'TODO',
         name: 'TODO',
+        title: 'TODO',
         twitter: 'TODO',
         github: 'TODO'
       }
@@ -492,8 +492,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'TODO',
         name: 'TODO',
+        title: 'TODO',
         twitter: 'TODO',
         github: 'TODO'
       }
@@ -504,8 +504,8 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        title: 'TODO',
         name: 'TODO',
+        title: 'TODO',
         twitter: 'TODO',
         github: 'TODO'
       }
@@ -533,21 +533,21 @@ export const events = [
 
 // {
 //   time: '4:15',
-//   title: 'WebRTC in the Trenches – A Survival Guide',
 //   name: 'Feross Aboukhadijeh',
+//   title: 'WebRTC in the Trenches – A Survival Guide',
 //   twitter: 'feross'
 // },
 
 // {
 //   time: '4:00',
-//   title: 'Beaker: A Web Without Servers',
 //   name: 'Paul Frazee',
+//   title: 'Beaker: A Web Without Servers',
 //   twitter: 'pfrazee'
 // }
 
 // {
 //   time: '4:00',
-//   title: 'How to build a WebRTC app in under 6 years',
 //   name: 'David Guttman',
+//   title: 'How to build a WebRTC app in under 6 years',
 //   twitter: 'davidguttman'
 // }
