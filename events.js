@@ -369,6 +369,7 @@ export const events = [
   },
   {
     date: '2021-04-16',
+    youtube: 'h6rpahb8_nk',
     schedule: [
       {
         time: '4:00',
