@@ -11,10 +11,14 @@ import { Header } from '../components/Header'
 
 import { theme } from '../theme'
 import { Watch } from '../components/Watch.js'
+import { eventIsLive, eventIsLiveSoon } from '../lib/events.js'
 
 const { colorScheme } = theme.site
 
 const WatchPage = () => {
+  const isLive = eventIsLive()
+  const isLiveSoon = eventIsLiveSoon()
+
   return (
     <Box
       px={4}
@@ -25,6 +29,10 @@ const WatchPage = () => {
 
       <Container maxWidth='4xl'>
         <Stack spacing={20} align='center'>
+
+          {isLive && <Heading size='xl'>🍻 We're live! 🎙 </Heading>}
+          {isLiveSoon && <Heading size='xl'>🍻 We're getting started soon! 🎙 </Heading>}
+
           <Watch width='full' />
 
           <Stack spacing={8} align='center'>
