@@ -382,6 +382,7 @@ export const events = [
   },
   {
     date: '2021-04-23',
+    youtube: 'jyITB37DXFs',
     schedule: [
       {
         time: '4:00',
