@@ -408,6 +408,7 @@ export const events = [
   },
   {
     date: '2021-05-07',
+    youtube: '2Y992K9ojc4',
     schedule: [
       {
         time: '4:00',
