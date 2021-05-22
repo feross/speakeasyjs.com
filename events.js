@@ -420,18 +420,8 @@ export const events = [
     ]
   },
   {
-    date: '2021-05-14',
-    schedule: [
-      {
-        time: '4:00',
-        name: '-',
-        title:
-          'No event this week. See you next week!'
-      }
-    ]
-  },
-  {
     date: '2021-05-21',
+    youtube: '1ZTRb-2DZGs',
     schedule: [
       {
         time: '4:00',
