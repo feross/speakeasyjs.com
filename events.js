@@ -437,10 +437,7 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        name: 'TODO',
-        title: 'TODO',
-        twitter: 'TODO',
-        github: 'TODO'
+        title: 'No event this week'
       }
     ]
   },
@@ -449,10 +446,7 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        name: 'TODO',
-        title: 'TODO',
-        twitter: 'TODO',
-        github: 'TODO'
+        title: 'TBD'
       }
     ]
   },
