@@ -467,10 +467,11 @@ export const events = [
     schedule: [
       {
         time: '4:00',
-        name: 'TODO',
-        title: 'TODO',
-        twitter: 'TODO',
-        github: 'TODO'
+        name: 'Peg & Kieran from Magma Collective',
+        title:
+        'Kappa Drive: Making a set of hyperdrives appear to be a single one',
+        twitter: 'coboxcoop',
+        github: 'coboxcoop'
       }
     ]
   },
@@ -499,20 +500,6 @@ export const events = [
     ]
   }
 ]
-
-// {
-//   date: '2021-05-14',
-//   schedule: [
-//     {
-//       time: '4:00',
-//       name: 'Peg & Kieran from Magma Collective',
-//       title:
-//         'Kappa Drive: Making a set of hyperdrives appear to be a single one',
-//       twitter: 'coboxcoop',
-//       github: 'coboxcoop'
-//     }
-//   ]
-// },
 
 // TODO:
 
