@@ -1,5 +1,5 @@
 import { Fragment } from 'react'
-import { Avatar, Box, Center, Flex, Heading, Stack, Tag, TagLabel, Text } from '@chakra-ui/react'
+import { Avatar, Box, Center, Flex, Heading, Stack, Tag, TagLabel } from '@chakra-ui/react'
 
 import { Link } from '../components/Link'
 import { parseDate } from '../lib/events.js'
