@@ -12,7 +12,7 @@ const { colorScheme } = theme.site
 
 export const Footer = props => {
   const _isDesktop = useBreakpointValue([false, false, true])
-  const [isDesktop, setIsDesktop] = useState(false)
+  const [isDesktop, setIsDesktop] = useState(true)
   useEffect(() => {
     setIsDesktop(_isDesktop)
   }, [_isDesktop])

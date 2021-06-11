@@ -3,7 +3,7 @@ import {
   Stack,
   Flex,
   Heading,
-  Image,
+  Img,
   useBreakpointValue
 } from '@chakra-ui/react'
 
@@ -20,7 +20,7 @@ export const Header = ({
   ...rest
 }) => {
   const _isDesktop = useBreakpointValue([false, false, true])
-  const [isDesktop, setIsDesktop] = useState(false)
+  const [isDesktop, setIsDesktop] = useState(true)
   useEffect(() => {
     setIsDesktop(_isDesktop)
   }, [_isDesktop])
@@ -62,7 +62,7 @@ export const Header = ({
         }}
       >
         <Flex align='center' pl={2}>
-          <Image
+          <Img
             src={siteImage}
             alt={siteName}
             height={10}
