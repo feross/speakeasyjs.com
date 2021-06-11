@@ -1,5 +1,4 @@
-import { Fragment } from 'react'
-import { Avatar, Box, Center, Flex, Heading, Stack, Tag, TagLabel } from '@chakra-ui/react'
+import { Avatar, Box, Center, Heading, Stack, Tag, TagLabel } from '@chakra-ui/react'
 
 import { Link } from '../components/Link'
 import { parseDate } from '../lib/events.js'
@@ -13,12 +12,13 @@ export const Event = ({ event, isPast = false, ...rest }) => (
     borderRadius='xl'
     {...rest}
   >
-    <Flex
+    <Stack
       direction={['column', null, 'row']}
       justify={['center', null, 'space-between']}
+      spacing={4}
     >
       <Stack spacing={3} flex={1}>
-        <Heading as='h3' size='sm' color='whiteAlpha.500'>
+        <Heading as='h3' size='sm' color='whiteAlpha.500' textAlign={['center', 'left']}>
           {format(parseDate(event.date), isPast ? 'LLL d, yyyy' : 'LLL d')}
         </Heading>
         {event.schedule.map(item => (
@@ -27,7 +27,7 @@ export const Event = ({ event, isPast = false, ...rest }) => (
       </Stack>
 
       {event.youtube &&
-        <Box w='300' ml={4}>
+        <Box w='300'>
           <Center>
             <iframe
               width='300'
@@ -42,7 +42,7 @@ export const Event = ({ event, isPast = false, ...rest }) => (
             />
           </Center>
         </Box>}
-    </Flex>
+    </Stack>
   </Box>
 )
 
@@ -87,7 +87,7 @@ const EventItem = ({ item }) => {
       )}
 
       {speakers.map(speaker => (
-        <Fragment key={speaker.name}>
+        <Box key={speaker.name} textAlign={['center', 'left']}>
           <Link
             href={speaker.href}
             showExternalIcon={false}
@@ -108,7 +108,7 @@ const EventItem = ({ item }) => {
               </TagLabel>
             </Tag>
           </Link>
-        </Fragment>
+        </Box>
       ))}
     </Stack>
   )
