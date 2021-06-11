@@ -30,6 +30,7 @@ export const Event = ({ event, isPast = false, ...rest }) => (
         <Box w='300'>
           <Center>
             <iframe
+              loading='lazy'
               width='300'
               height='158'
               src={`https://www.youtube-nocookie.com/embed/${event.youtube}`}
