@@ -1,14 +1,49 @@
 import { Fragment } from 'react'
-import { Avatar, Box, Stack, Text } from '@chakra-ui/react'
+import { Avatar, Box, Center, Flex, Heading, Stack, Tag, TagLabel, Text } from '@chakra-ui/react'
 
 import { Link } from '../components/Link'
+import { parseDate } from '../lib/events.js'
+import { format } from 'date-fns'
 
-export const Event = ({ event, ...rest }) => (
-  <Stack spacing={[4, null, 8]} {...rest}>
-    {event.schedule.map(item => (
-      <EventItem key={item.time} item={item} />
-    ))}
-  </Stack>
+export const Event = ({ event, isPast = false, ...rest }) => (
+  <Box
+    w={['full', null, isPast ? '3xl' : '2xl']}
+    p={7}
+    backgroundColor='whiteAlpha.200'
+    borderRadius='xl'
+    {...rest}
+  >
+    <Flex
+      direction={['column', null, 'row']}
+      justify={['center', null, 'space-between']}
+    >
+      <Stack spacing={3} flex={1}>
+        <Heading as='h3' size='sm' color='whiteAlpha.500'>
+          {format(parseDate(event.date), isPast ? 'LLL d, yyyy' : 'LLL d')}
+        </Heading>
+        {event.schedule.map(item => (
+          <EventItem key={item.time} item={item} />
+        ))}
+      </Stack>
+
+      {event.youtube &&
+        <Box w='300' ml={4}>
+          <Center>
+            <iframe
+              width='300'
+              height='158'
+              src={`https://www.youtube-nocookie.com/embed/${event.youtube}`}
+              frameBorder='0'
+              allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+              allowFullScreen
+              style={{
+                maxWidth: '100%'
+              }}
+            />
+          </Center>
+        </Box>}
+    </Flex>
+  </Box>
 )
 
 const EventItem = ({ item }) => {
@@ -42,42 +77,39 @@ const EventItem = ({ item }) => {
   })
 
   return (
-    <Stack spacing={[4, null, 8]} direction={['column', 'row']}>
-      <Box
-        color='whiteAlpha.600'
-        textAlign={['center', 'right']}
-        whiteSpace='nowrap'
-      >
-        {item.time} PM
-      </Box>
+    <Stack spacing={4}>
+      {item.title && (
+        <Box textAlign={['center', 'left']}>
+          <Heading as='h4' size='md'>
+            {item.title}
+          </Heading>
+        </Box>
+      )}
 
-      <Stack spacing={4}>
-        {item.title && (
-          <Box textAlign={['center', 'left']}>
-            <Text as='strong' fontSize='xl'>
-              {item.title}
-            </Text>
-          </Box>
-        )}
-
-        {speakers.map(speaker => (
-          <Fragment key={speaker.name}>
-            <Link href={speaker.href} showExternalIcon={false}>
-              <Stack
-                direction='row'
-                justify={['center', 'flex-start']}
-                align='center'
-                spacing={4}
-              >
-                <Avatar name={speaker.name} src={speaker.src} size='md' />
-                <Box fontSize='lg' color='whiteAlpha.800'>
-                  {speaker.name}
-                </Box>
-              </Stack>
-            </Link>
-          </Fragment>
-        ))}
-      </Stack>
+      {speakers.map(speaker => (
+        <Fragment key={speaker.name}>
+          <Link
+            href={speaker.href}
+            showExternalIcon={false}
+            _hover={{
+              textDecoration: 'none'
+            }}
+          >
+            <Tag
+              size='lg'
+              colorScheme='orange'
+              borderRadius='full'
+              transition='transform 0.2s linear'
+              _hover={{ transform: 'scale(1.05)' }}
+            >
+              <Avatar name={speaker.name} src={speaker.src} size='xs' ml={-1} mr={2} />
+              <TagLabel>
+                {speaker.name}
+              </TagLabel>
+            </Tag>
+          </Link>
+        </Fragment>
+      ))}
     </Stack>
   )
 }

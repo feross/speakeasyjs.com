@@ -17,7 +17,6 @@ const { colorScheme } = theme.site
 
 export const Header = ({
   showBuyButton = true,
-  showPastTalksButton = true,
   ...rest
 }) => {
   const _isDesktop = useBreakpointValue([false, false, true])
@@ -80,14 +79,6 @@ export const Header = ({
 
       {isDesktop &&
         <Stack direction='row' align='center'>
-          {showPastTalksButton &&
-            <ButtonLink
-              size='md'
-              href='/talks'
-              variant='ghost'
-            >
-              Past Talks
-            </ButtonLink>}
           {showBuyButton &&
             <ButtonLink
               colorScheme={colorScheme}

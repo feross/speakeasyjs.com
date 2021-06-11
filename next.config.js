@@ -15,6 +15,11 @@ module.exports = (phase, { defaultConfig }) => {
         source: '/buy',
         destination: 'https://lu.ma/speakeasyjs',
         permanent: false
+      },
+      {
+        source: '/talks',
+        destination: '/',
+        permanent: true
       }
     ]
   }
