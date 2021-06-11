@@ -433,24 +433,6 @@ export const events = [
     ]
   },
   {
-    date: '2021-05-28',
-    schedule: [
-      {
-        time: '4:00',
-        title: 'No event this week'
-      }
-    ]
-  },
-  {
-    date: '2021-06-04',
-    schedule: [
-      {
-        time: '4:00',
-        title: 'TBD'
-      }
-    ]
-  },
-  {
     date: '2021-06-11',
     schedule: [
       {
