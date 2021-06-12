@@ -40,7 +40,11 @@ const HomePage = ({ currentEvent, nextEvent, pastEvents }) => {
       <Container maxWidth='3xl'>
         <Stack spacing={12} align='center'>
           <Heading as='h1' fontWeight='normal' size='md' textAlign='center'>
-            <chakra.span as='strong'>Speakeasy JS</chakra.span> is the meetup for 🥼&nbsp;mad science, 🧙‍♂️&nbsp;hacking, and 🧪&nbsp;experiments. We&nbsp;hang out virtually on <chakra.span as='strong'><chakra.span as='em'>Friday at 4pm Pacific Time</chakra.span></chakra.span> each week.
+            <chakra.span as='strong'>Speakeasy JS</chakra.span> is the meetup for 🥼&nbsp;mad science, 🧙‍♂️&nbsp;hacking, and 🧪&nbsp;experiments. We&nbsp;hang out virtually on <chakra.span as='strong'><chakra.span as='em'>Friday at 10am Pacific Time</chakra.span></chakra.span> each week.
+          </Heading>
+
+          <Heading as='h2' size='lg' textAlign='center' color='red.300'>
+            🚨 NEW TIME: Friday at 10am PT! 🚨
           </Heading>
 
           {(isLive || isLiveSoon) && (
