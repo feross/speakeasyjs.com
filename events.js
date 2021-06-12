@@ -4,7 +4,6 @@ export const events = [
     youtube: 'GrcWFOLoGi4',
     schedule: [
       {
-        time: '4:00',
         name: 'Mikeal Rogers',
         title: 'ZDAG: A JSON++ compressor',
         twitter: 'mikeal',
@@ -24,7 +23,6 @@ export const events = [
     youtube: 'CXGDvjAXP8g',
     schedule: [
       {
-        time: '4:00',
         name: 'Mathius Buus',
         title: 'Hyperbee: An append-only Btree running on a Hypercore',
         twitter: 'mafintosh',
@@ -44,7 +42,6 @@ export const events = [
     youtube: 'XiEZ9_Cn5xU',
     schedule: [
       {
-        time: '4:00',
         name: 'Dominic Tarr',
         title: 'Acid: a new fun-oriented programming language',
         twitter: 'dominictarr',
@@ -64,7 +61,6 @@ export const events = [
     youtube: 'r5F6dekUmdE',
     schedule: [
       {
-        time: '4:00',
         name: 'Rod Vagg',
         title: 'Content-addressed distributed data structures',
         twitter: 'rvagg',
@@ -83,7 +79,6 @@ export const events = [
     youtube: 'S-NioC6W858',
     schedule: [
       {
-        time: '4:00',
         name: 'Matt McKegg',
         title: 'Rust-Powered Live Musical Performance 🎶',
         twitter: 'NOISEISSUES',
@@ -96,7 +91,6 @@ export const events = [
     youtube: 'PJcfKX_PKaM',
     schedule: [
       {
-        time: '4:00',
         name: 'Fred K. Schott',
         title: 'Snowpack: Faster web tooling, powered by ESM',
         twitter: 'FredKSchott',
@@ -109,7 +103,6 @@ export const events = [
     youtube: 't5xF_9qh7Nw',
     schedule: [
       {
-        time: '4:00',
         name: 'James Halliday (substack)',
         title: 'Building a NTSC/VHS simulator',
         twitter: 'substack',
@@ -122,7 +115,6 @@ export const events = [
     youtube: '4Yh6N80Z1EU',
     schedule: [
       {
-        time: '4:00',
         name: 'Dandelion',
         title: 'CredRank: Algorithmic Credit Attribution over Time',
         twitter: 'decentralion',
@@ -135,7 +127,6 @@ export const events = [
     youtube: '97CTAtfAuOM',
     schedule: [
       {
-        time: '4:00',
         name: 'Suz Hinton',
         title: 'Digital preservation in hardware tooling',
         twitter: 'noopkat',
@@ -148,7 +139,6 @@ export const events = [
     youtube: 'gDHm8n9h0Zw',
     schedule: [
       {
-        time: '4:00',
         name: 'Hemanth HM',
         title:
           "Future Features In JavaScript? Let's discuss some of the TC39 proposals",
@@ -162,7 +152,6 @@ export const events = [
     youtube: 'CS6pZ1qLUVg',
     schedule: [
       {
-        time: '4:00',
         name: 'Elena Nadolinski',
         title: 'How we fit our blockchain full node in a web browser',
         twitter: 'leanthebean',
@@ -175,7 +164,6 @@ export const events = [
     youtube: 'O0WPMUx6vAo',
     schedule: [
       {
-        time: '4:00',
         name: 'John Hiesey',
         title: 'Restoring a 1960 color TV',
         twitter: 'jhiesey',
@@ -188,7 +176,6 @@ export const events = [
     youtube: 'jEUr_NzP6xg',
     schedule: [
       {
-        time: '4:00',
         name: 'Jordan Eldredge',
         title: 'Design as an Optimization Problem',
         twitter: 'captbaritone',
@@ -201,7 +188,6 @@ export const events = [
     youtube: 'ciRWmEhL8e8',
     schedule: [
       {
-        time: '4:00',
         name: 'Mauve',
         title: 'Using Standard Web APIs to Mix P2P Protocols',
         twitter: 'RangerMauve',
@@ -214,7 +200,6 @@ export const events = [
     youtube: 'TBKQ_TvrK8o',
     schedule: [
       {
-        time: '4:00',
         name: 'Brooklyn Zelenka',
         title: 'WebNative: How to put a full stack directly in the browser',
         twitter: 'expede',
@@ -227,7 +212,6 @@ export const events = [
     youtube: 'iaqe6F4S2tA',
     schedule: [
       {
-        time: '4:00',
         name: 'Kumavis',
         title: 'Lavamoat: Securing your dependency graph',
         twitter: 'kumavis_',
@@ -240,7 +224,6 @@ export const events = [
     youtube: 'GnuJkbLkYnw',
     schedule: [
       {
-        time: '4:00',
         name: 'Adam Baldwin',
         title: 'Attacking Open Source using Abandoned Resources',
         twitter: 'adam_baldwin',
@@ -253,7 +236,6 @@ export const events = [
     youtube: 'oJLVTaOmlWg',
     schedule: [
       {
-        time: '4:00',
         name: 'Darcy Clarke',
         title: "npm update – What's new in npm 7",
         twitter: 'darcy',
@@ -266,7 +248,6 @@ export const events = [
     youtube: 'Dr5whkGNY5o',
     schedule: [
       {
-        time: '4:00',
         name: 'Rafael Specht',
         title:
           'A Gift of Sound and Vision — Affecting images using the Web Audio API',
@@ -280,7 +261,6 @@ export const events = [
     youtube: 'JyOYqJGrWak',
     schedule: [
       {
-        time: '4:00',
         name: 'Simon Willison',
         title: 'SQL in your client-side JavaScript is a great idea',
         twitter: 'simonw',
@@ -293,7 +273,6 @@ export const events = [
     youtube: 'PEESaD7Qkxs',
     schedule: [
       {
-        time: '4:00',
         name: 'Andrea Giammarchi',
         title: 'LinkeDOM – A triple-linked lists based DOM',
         twitter: 'WebReflection',
@@ -306,7 +285,6 @@ export const events = [
     youtube: '3rhUG1qRYKM',
     schedule: [
       {
-        time: '4:00',
         name: 'Gabriel Fürstenheim',
         title: 'Infinite Mosaic – Infinite tiling of artworks',
         twitter: 'furstenheim',
@@ -319,7 +297,6 @@ export const events = [
     youtube: 'P7X7C-door4',
     schedule: [
       {
-        time: '4:00',
         title: 'Flipping scaling on its head with Peermaps',
         speakers: [
           {
@@ -346,7 +323,6 @@ export const events = [
     youtube: 'AqCXYS-52XA',
     schedule: [
       {
-        time: '4:00',
         name: 'Noor Siddiqui',
         title: 'AI, Genomics, and the Future of IVF',
         twitter: 'noor_siddiqui_',
@@ -359,7 +335,6 @@ export const events = [
     youtube: 'mgkwZqVkrwo',
     schedule: [
       {
-        time: '4:00',
         name: 'Fred K. Schott',
         title: 'Astro: A New Architecture for the Modern Web',
         twitter: 'FredKSchott',
@@ -372,7 +347,6 @@ export const events = [
     youtube: 'h6rpahb8_nk',
     schedule: [
       {
-        time: '4:00',
         name: 'Travis Fischer',
         title: "Reverse-engineering Notion's API",
         twitter: 'transitive_bs',
@@ -385,7 +359,6 @@ export const events = [
     youtube: 'jyITB37DXFs',
     schedule: [
       {
-        time: '4:00',
         name: 'James Kyburz',
         title: 'Attempting a distributed append-only log in a serverless world',
         twitter: 'JamesKyburz',
@@ -398,7 +371,6 @@ export const events = [
     youtube: 'sPKYeQkzvVk',
     schedule: [
       {
-        time: '4:00',
         name: 'Giuseppe Gurgone',
         title: 'Synchronizing Async Functions in Node.js',
         twitter: 'giuseppegurgone',
@@ -411,7 +383,6 @@ export const events = [
     youtube: '2Y992K9ojc4',
     schedule: [
       {
-        time: '4:00',
         name: 'Rasmus Porsager',
         title: 'HashQL: Chuck Norris can access the DB from the UI',
         twitter: 'rporsager',
@@ -424,7 +395,6 @@ export const events = [
     youtube: '1ZTRb-2DZGs',
     schedule: [
       {
-        time: '4:00',
         name: 'Justine Tunney',
         title: 'Redbean: Actually Portable Executable Web Server',
         twitter: 'JustineTunney',
@@ -434,9 +404,9 @@ export const events = [
   },
   {
     date: '2021-06-11',
+    youtube: 'HiawfYnbX3Y',
     schedule: [
       {
-        time: '4:00',
         name: 'Ilya Kreymer',
         title: 'Creating high fidelity web archives directly in your browser',
         twitter: 'IlyaKreymer',
@@ -446,9 +416,9 @@ export const events = [
   },
   {
     date: '2021-06-18',
+    youtube: '',
     schedule: [
       {
-        time: '4:00',
         name: 'Peg & Kieran from Magma Collective',
         title:
         'Kappa Drive: Making a set of hyperdrives appear to be a single one',
@@ -459,28 +429,187 @@ export const events = [
   },
   {
     date: '2021-06-25',
+    youtube: '',
     schedule: [
       {
-        time: '4:00',
-        name: 'TODO',
-        title: 'TODO',
-        twitter: 'TODO',
-        github: 'TODO'
+        name: '',
+        title: '',
+        twitter: '',
+        github: ''
       }
     ]
   },
   {
     date: '2021-07-02',
+    youtube: '',
     schedule: [
       {
-        time: '4:00',
-        name: 'TODO',
-        title: 'TODO',
-        twitter: 'TODO',
-        github: 'TODO'
+        name: '',
+        title: '',
+        twitter: '',
+        github: ''
+      }
+    ]
+  },
+  {
+    date: '2021-07-09',
+    youtube: '',
+    schedule: [
+      {
+        name: '',
+        title: '',
+        twitter: '',
+        github: ''
+      }
+    ]
+  },
+  {
+    date: '2021-07-16',
+    youtube: '',
+    schedule: [
+      {
+        name: 'Jordan Eldredge',
+        title: 'Speeding Up Webamp\'s Music Visualizer with an In-Browser WebAssembly Compiler',
+        twitter: 'captbaritone',
+        github: 'captbaritone'
+      }
+    ]
+  },
+  {
+    date: '2021-07-23',
+    youtube: '',
+    schedule: [
+      {
+        name: '',
+        title: '',
+        twitter: '',
+        github: ''
+      }
+    ]
+  },
+  {
+    date: '2021-07-30',
+    youtube: '',
+    schedule: [
+      {
+        name: '',
+        title: '',
+        twitter: '',
+        github: ''
+      }
+    ]
+  }, {
+    date: '2021-08-06',
+    youtube: '',
+    schedule: [
+      {
+        name: '',
+        title: '',
+        twitter: '',
+        github: ''
+      }
+    ]
+  }, {
+    date: '2021-08-13',
+    youtube: '',
+    schedule: [
+      {
+        name: '',
+        title: '',
+        twitter: '',
+        github: ''
+      }
+    ]
+  }, {
+    date: '2021-08-20',
+    youtube: '',
+    schedule: [
+      {
+        name: '',
+        title: '',
+        twitter: '',
+        github: ''
+      }
+    ]
+  }, {
+    date: '2021-08-27',
+    youtube: '',
+    schedule: [
+      {
+        name: '',
+        title: '',
+        twitter: '',
+        github: ''
+      }
+    ]
+  }, {
+    date: '2021-09-03',
+    youtube: '',
+    schedule: [
+      {
+        name: 'SpeakeasyJS season 1 is over. But come back next year for more SpeakeasyJS!',
+        title: '',
+        twitter: '',
+        github: ''
+      }
+    ]
+  }, {
+    date: '2021-09-10',
+    youtube: '',
+    schedule: [
+      {
+        name: 'Come back next year for more SpeakeasyJS',
+        title: '',
+        twitter: '',
+        github: ''
+      }
+    ]
+  }, {
+    date: '2021-09-17',
+    youtube: '',
+    schedule: [
+      {
+        name: 'Come back next year for more SpeakeasyJS',
+        title: '',
+        twitter: '',
+        github: ''
+      }
+    ]
+  }, {
+    date: '2021-09-24',
+    youtube: '',
+    schedule: [
+      {
+        name: 'Come back next year for more SpeakeasyJS',
+        title: '',
+        twitter: '',
+        github: ''
+      }
+    ]
+  }, {
+    date: '2021-09-31',
+    youtube: '',
+    schedule: [
+      {
+        name: 'Come back next year for more SpeakeasyJS',
+        title: '',
+        twitter: '',
+        github: ''
+      }
+    ]
+  }, {
+    date: '2021-10-07',
+    youtube: '',
+    schedule: [
+      {
+        name: 'Come back next year for more SpeakeasyJS',
+        title: '',
+        twitter: '',
+        github: ''
       }
     ]
   }
+
 ]
 
 // TODO:

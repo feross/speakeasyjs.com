@@ -22,7 +22,7 @@ export const Event = ({ event, isPast = false, ...rest }) => (
           {format(parseDate(event.date), isPast ? 'LLL d, yyyy' : 'LLL d')}
         </Heading>
         {event.schedule.map(item => (
-          <EventItem key={item.time} item={item} />
+          <EventItem key={item.title} item={item} />
         ))}
       </Stack>
 
