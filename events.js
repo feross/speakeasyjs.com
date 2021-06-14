@@ -432,10 +432,10 @@ export const events = [
     youtube: '',
     schedule: [
       {
-        name: '',
-        title: '',
-        twitter: '',
-        github: ''
+        name: 'Antonio Lain',
+        title: 'Caf.js: Co-design Cloud Assistants with your Web App and IoT Devices',
+        twitter: 'cafjs',
+        github: 'antlai'
       }
     ]
   },
