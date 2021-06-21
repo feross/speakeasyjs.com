@@ -416,7 +416,7 @@ export const events = [
   },
   {
     date: '2021-06-18',
-    youtube: '',
+    youtube: 'AaV1rUfejnQ',
     schedule: [
       {
         name: 'Peg & Kieran from Magma Collective',
