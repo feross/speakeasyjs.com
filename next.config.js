@@ -8,8 +8,18 @@ const withBundleAnalyzer = BundleAnalyzer({
 module.exports = (phase, { defaultConfig }) => {
   const config = {
     ...defaultConfig,
+
+    eslint: {
+      // Don't run eslint during `next build`
+      ignoreDuringBuilds: true
+    },
+
+    // Disable Next.js "x-powered-by" header
     poweredByHeader: false,
+
+    // Enable React strict mode
     reactStrictMode: true,
+
     redirects: async () => [
       {
         source: '/buy',
