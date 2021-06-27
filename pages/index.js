@@ -108,7 +108,7 @@ const HomePage = ({ currentEvent, nextEvent, pastEvents }) => {
             </Stack>
 
             <Heading as='h2' size='lg' align='center'>
-              Check out these past talks!
+              Check out past talks!
             </Heading>
 
             {pastEvents.map(event => (

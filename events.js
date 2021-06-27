@@ -429,7 +429,7 @@ export const events = [
   },
   {
     date: '2021-06-25',
-    youtube: '',
+    youtube: 'XcJTjFY1uhk',
     schedule: [
       {
         name: 'Antonio Lain',
@@ -515,7 +515,7 @@ export const events = [
     schedule: [
       {
         name: '',
-        title: '',
+        title: 'SpeakeasyJS season 1 is over. But come back next year for more SpeakeasyJS!',
         twitter: '',
         github: ''
       }
@@ -547,7 +547,7 @@ export const events = [
     youtube: '',
     schedule: [
       {
-        name: 'SpeakeasyJS season 1 is over. But come back next year for more SpeakeasyJS!',
+        name: '',
         title: '',
         twitter: '',
         github: ''
