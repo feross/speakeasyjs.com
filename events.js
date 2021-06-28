@@ -456,10 +456,10 @@ export const events = [
     youtube: '',
     schedule: [
       {
-        name: '',
-        title: '',
-        twitter: '',
-        github: ''
+        name: 'Arjun Barrett',
+        title: 'High Performance Data Compression in a Tiny Package',
+        twitter: 'arjunbarrett',
+        github: '101arrowz'
       }
     ]
   },
