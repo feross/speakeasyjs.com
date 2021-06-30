@@ -587,7 +587,7 @@ export const events = [
       }
     ]
   }, {
-    date: '2021-09-31',
+    date: '2021-10-01',
     youtube: '',
     schedule: [
       {
@@ -598,7 +598,7 @@ export const events = [
       }
     ]
   }, {
-    date: '2021-10-07',
+    date: '2021-10-08',
     youtube: '',
     schedule: [
       {
