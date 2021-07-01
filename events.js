@@ -445,7 +445,7 @@ export const events = [
     schedule: [
       {
         name: '',
-        title: '',
+        title: 'No event this week!',
         twitter: '',
         github: ''
       }
