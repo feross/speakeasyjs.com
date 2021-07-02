@@ -440,18 +440,6 @@ export const events = [
     ]
   },
   {
-    date: '2021-07-02',
-    youtube: '',
-    schedule: [
-      {
-        name: '',
-        title: 'No event this week!',
-        twitter: '',
-        github: ''
-      }
-    ]
-  },
-  {
     date: '2021-07-09',
     youtube: '',
     schedule: [
