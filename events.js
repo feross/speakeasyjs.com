@@ -441,7 +441,7 @@ export const events = [
   },
   {
     date: '2021-07-09',
-    youtube: '',
+    youtube: 'u7FAkdPERSo',
     schedule: [
       {
         name: 'Arjun Barrett',
