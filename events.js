@@ -468,10 +468,10 @@ export const events = [
     youtube: '',
     schedule: [
       {
-        name: '',
-        title: '',
-        twitter: '',
-        github: ''
+        name: 'Nick Doiron',
+        title: 'Ready or Not: Quantum Computing in JavaScript',
+        twitter: 'mapmeld',
+        github: 'mapmeld'
       }
     ]
   },
