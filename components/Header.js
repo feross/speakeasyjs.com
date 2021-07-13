@@ -83,6 +83,12 @@ export const Header = ({
 
         {isDesktop &&
           <Stack direction='row' align='center'>
+            <ButtonLink
+              href='https://docs.google.com/forms/d/e/1FAIpQLSf3TUtLlUoKsoLrhEWBBZXh5g5Rb_s-soMp8ElSX9Huk3xtvQ/viewform?usp=sf_link'
+              size='lg'
+            >
+              Nominate a speaker
+            </ButtonLink>
             {showBuyButton &&
               <ButtonLink
                 colorScheme={colorScheme}

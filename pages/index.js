@@ -40,9 +40,9 @@ const HomePage = ({ currentEvent, nextEvent, pastEvents }) => {
       >
         <Container maxWidth='3xl'>
           <Stack spacing={12} align='center'>
-            <Heading as='h2' size='lg' textAlign='center' color='red.300'>
+            {/* <Heading as='h2' size='lg' textAlign='center' color='red.300'>
               🚨 NEW TIME: Friday at 10am PT! 🚨
-            </Heading>
+            </Heading> */}
 
             <Heading as='h1' fontWeight='normal' size='md' textAlign='center'>
               <chakra.span as='strong'>Speakeasy JS</chakra.span> is the meetup for 🥼&nbsp;mad science, 🧙‍♂️&nbsp;hacking, and 🧪&nbsp;experiments. We&nbsp;hang out virtually on <chakra.span as='strong'><chakra.span as='em'>Friday at 10am Pacific Time</chakra.span></chakra.span> each week.
@@ -59,53 +59,51 @@ const HomePage = ({ currentEvent, nextEvent, pastEvents }) => {
             {currentEvent &&
               <>
                 <Heading as='h2' size='lg' textAlign='center'>
-                  Here is what's happening <Text as='em'>this</Text> Friday
+                  Here is what's happening ✨ <Text as='em'>this</Text> ✨ Friday
                 </Heading>
 
                 <Event event={currentEvent} />
               </>}
 
+            <Box>
+              <ButtonLink
+                colorScheme={colorScheme}
+                size='lg'
+                href='/buy'
+              >
+                Get a free ticket
+              </ButtonLink>
+            </Box>
+
             {nextEvent &&
               <>
                 <Heading as='h2' size='lg' textAlign='center'>
-                  And a ✨ sneak peek ✨ of <Text as='em'>next</Text> Friday
+                  Here is a sneak peek of ✨ <Text as='em'>next</Text> ✨ Friday
                 </Heading>
 
                 <Event event={nextEvent} />
               </>}
 
-            <Stack align='center' spacing={4}>
-              <Box>
-                <ButtonLink
-                  colorScheme={colorScheme}
-                  size='lg'
-                  href='/buy'
-                >
-                  Get a free ticket
-                </ButtonLink>
-              </Box>
-
-              <Wrap direction='row' justify='center'>
-                <ButtonLink
-                  size='sm'
-                  href='https://twitter.com/Speakeasy_JS'
-                >
-                  Follow on Twitter
-                </ButtonLink>
-                <ButtonLink
-                  size='sm'
-                  href='https://calendar.google.com/calendar?cid=MXNrMmtvOWRqMnNhNzNsN20xbnFudWJydjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'
-                >
-                  Add to Google Calendar
-                </ButtonLink>
-                <ButtonLink
-                  size='sm'
-                  href='https://calendar.google.com/calendar/ical/1sk2ko9dj2sa73l7m1nqnubrv4%40group.calendar.google.com/public/basic.ics'
-                >
-                  Add to Calendar.app
-                </ButtonLink>
-              </Wrap>
-            </Stack>
+            <Wrap direction='row' justify='center'>
+              <ButtonLink
+                size='sm'
+                href='https://twitter.com/Speakeasy_JS'
+              >
+                Follow on Twitter
+              </ButtonLink>
+              <ButtonLink
+                size='sm'
+                href='https://calendar.google.com/calendar?cid=MXNrMmtvOWRqMnNhNzNsN20xbnFudWJydjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'
+              >
+                Add to Google Calendar
+              </ButtonLink>
+              <ButtonLink
+                size='sm'
+                href='https://calendar.google.com/calendar/ical/1sk2ko9dj2sa73l7m1nqnubrv4%40group.calendar.google.com/public/basic.ics'
+              >
+                Add to Calendar.app
+              </ButtonLink>
+            </Wrap>
 
             <Heading as='h2' size='lg' align='center'>
               Check out past talks!
@@ -116,6 +114,13 @@ const HomePage = ({ currentEvent, nextEvent, pastEvents }) => {
                 <Event event={event} isPast />
               </Box>
             ))}
+
+            <ButtonLink
+              href='https://docs.google.com/forms/d/e/1FAIpQLSf3TUtLlUoKsoLrhEWBBZXh5g5Rb_s-soMp8ElSX9Huk3xtvQ/viewform?usp=sf_link'
+              size='lg'
+            >
+              Nominate a speaker
+            </ButtonLink>
           </Stack>
         </Container>
       </Box>
