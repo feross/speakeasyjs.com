@@ -480,10 +480,10 @@ export const events = [
     youtube: '',
     schedule: [
       {
-        name: '',
-        title: '',
-        twitter: '',
-        github: ''
+        name: 'Austin Gil',
+        title: 'JSDocs: It\'s like TypeScript but without all that TypeScript',
+        twitter: 'stegosource',
+        github: 'AustinGil'
       }
     ]
   }, {
