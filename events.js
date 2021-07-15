@@ -491,10 +491,10 @@ export const events = [
     youtube: '',
     schedule: [
       {
-        name: '',
-        title: '',
-        twitter: '',
-        github: ''
+        name: 'Giorgio Delgado',
+        title: 'Type-Safe Errors with Algebraic Data Types',
+        twitter: '_gdelgado',
+        github: 'supermacro'
       }
     ]
   }, {
