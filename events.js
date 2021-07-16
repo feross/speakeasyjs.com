@@ -524,10 +524,10 @@ export const events = [
     youtube: '',
     schedule: [
       {
-        name: '',
-        title: '',
-        twitter: '',
-        github: ''
+        name: 'Thomas Steiner',
+        title: 'Project Fugu: Closing Gaps in the Web\'s Capabilities',
+        twitter: 'tomayac',
+        github: 'tomayac'
       }
     ]
   }, {
