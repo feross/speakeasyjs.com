@@ -503,7 +503,7 @@ export const events = [
     schedule: [
       {
         name: '',
-        title: 'SpeakeasyJS season 1 is over. But come back next year for more SpeakeasyJS!',
+        title: '',
         twitter: '',
         github: ''
       }
@@ -513,10 +513,10 @@ export const events = [
     youtube: '',
     schedule: [
       {
-        name: '',
-        title: '',
-        twitter: '',
-        github: ''
+        name: 'Mikola Lysenko',
+        title: 'Reflections on building a web-based voxel MMO in China',
+        twitter: 'mikolalysenko',
+        github: 'mikolalysenko'
       }
     ]
   }, {
@@ -546,7 +546,7 @@ export const events = [
     youtube: '',
     schedule: [
       {
-        name: 'Come back next year for more SpeakeasyJS',
+        name: 'SpeakeasyJS season 1 is over. But come back next year for more SpeakeasyJS!',
         title: '',
         twitter: '',
         github: ''
