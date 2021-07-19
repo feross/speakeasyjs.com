@@ -453,7 +453,7 @@ export const events = [
   },
   {
     date: '2021-07-16',
-    youtube: '',
+    youtube: '68nBrxM5ukU',
     schedule: [
       {
         name: 'Jordan Eldredge',
