@@ -502,10 +502,10 @@ export const events = [
     youtube: '',
     schedule: [
       {
-        name: '',
-        title: '',
-        twitter: '',
-        github: ''
+        name: 'Matthew Zipkin',
+        title: 'bcoin: An alternative implementation of the Bitcoin protocol in NodeJS',
+        twitter: 'MatthewZipkin',
+        github: 'pinheadmz'
       }
     ]
   }, {
