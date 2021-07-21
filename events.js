@@ -535,10 +535,10 @@ export const events = [
     youtube: '',
     schedule: [
       {
-        name: '',
-        title: '',
-        twitter: '',
-        github: ''
+        name: 'Carlo Piovesan',
+        title: 'A JavaScript optimizing compiler: From JavaScript to C++ to faster JavaScript',
+        twitter: 'carlop54002226',
+        github: 'carlopi'
       }
     ]
   }, {
