@@ -465,7 +465,7 @@ export const events = [
   },
   {
     date: '2021-07-23',
-    youtube: '',
+    youtube: '-D0KSSS_6Mc',
     schedule: [
       {
         name: 'Nick Doiron',
