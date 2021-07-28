@@ -546,10 +546,10 @@ export const events = [
     youtube: '',
     schedule: [
       {
-        name: 'SpeakeasyJS season 1 is over. But come back next year for more SpeakeasyJS!',
-        title: '',
-        twitter: '',
-        github: ''
+        name: 'Sage (Segun Adebayo)',
+        title: 'Building accessible components with State Machines',
+        twitter: 'thesegunadebayo',
+        github: 'segunadebayo'
       }
     ]
   }, {
@@ -557,7 +557,7 @@ export const events = [
     youtube: '',
     schedule: [
       {
-        name: 'Come back next year for more SpeakeasyJS',
+        name: 'SpeakeasyJS season 1 is over. But come back next year for more SpeakeasyJS!',
         title: '',
         twitter: '',
         github: ''
