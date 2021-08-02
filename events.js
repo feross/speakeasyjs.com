@@ -477,7 +477,7 @@ export const events = [
   },
   {
     date: '2021-07-30',
-    youtube: '',
+    youtube: 'iP5XwRT2tNw',
     schedule: [
       {
         name: 'Austin Gil',
