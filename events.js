@@ -488,7 +488,7 @@ export const events = [
     ]
   }, {
     date: '2021-08-06',
-    youtube: '',
+    youtube: 'QyunIFfKLIU',
     schedule: [
       {
         name: 'Giorgio Delgado',
