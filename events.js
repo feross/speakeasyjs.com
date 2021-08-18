@@ -498,17 +498,6 @@ export const events = [
       }
     ]
   }, {
-    date: '2021-08-13',
-    youtube: '',
-    schedule: [
-      {
-        name: 'Matthew Zipkin',
-        title: 'bcoin: An alternative implementation of the Bitcoin protocol in NodeJS',
-        twitter: 'MatthewZipkin',
-        github: 'pinheadmz'
-      }
-    ]
-  }, {
     date: '2021-08-20',
     youtube: '',
     schedule: [
@@ -557,10 +546,10 @@ export const events = [
     youtube: '',
     schedule: [
       {
-        name: 'SpeakeasyJS season 1 is over. But come back next year for more SpeakeasyJS!',
-        title: '',
-        twitter: '',
-        github: ''
+        name: 'Matthew Zipkin',
+        title: 'bcoin: An alternative implementation of the Bitcoin protocol in NodeJS',
+        twitter: 'MatthewZipkin',
+        github: 'pinheadmz'
       }
     ]
   }, {
@@ -568,7 +557,7 @@ export const events = [
     youtube: '',
     schedule: [
       {
-        name: 'Come back next year for more SpeakeasyJS',
+        name: 'SpeakeasyJS season 1 is over. But come back next year for more SpeakeasyJS!',
         title: '',
         twitter: '',
         github: ''
