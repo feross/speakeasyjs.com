@@ -506,6 +506,18 @@ export const events = [
         title: 'Reflections on building a web-based voxel MMO in China',
         twitter: 'mikolalysenko',
         github: 'mikolalysenko'
+      },
+      {
+        name: 'necolo',
+        github: 'Necolo'
+      },
+      {
+        name: 'Jinjin Tao',
+        github: 'Francis-Tao-jinjin'
+      },
+      {
+        name: 'Taiming Man',
+        github: 'Eronana'
       }
     ]
   }, {
