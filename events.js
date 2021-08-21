@@ -103,7 +103,7 @@ export const events = [
     youtube: 't5xF_9qh7Nw',
     schedule: [
       {
-        name: 'James Halliday (substack)',
+        name: 'James Halliday',
         title: 'Building a NTSC/VHS simulator',
         twitter: 'substack',
         github: 'substack'
@@ -499,27 +499,30 @@ export const events = [
     ]
   }, {
     date: '2021-08-20',
-    youtube: '',
+    youtube: 'Z_--8z549D4',
     schedule: [
       {
-        name: 'Mikola Lysenko',
         title: 'Reflections on building a web-based voxel MMO in China',
-        twitter: 'mikolalysenko',
-        github: 'mikolalysenko'
-      },
-      {
-        name: 'necolo',
-        github: 'Necolo'
-      },
-      {
-        name: 'Jinjin Tao',
-        github: 'Francis-Tao-jinjin'
-      },
-      {
-        name: 'Taiming Man',
-        github: 'Eronana'
-      }
-    ]
+        speakers: [
+          {
+            name: 'Mikola Lysenko',
+            twitter: 'mikolalysenko',
+            github: 'mikolalysenko'
+          },
+          {
+            name: 'necolo',
+            github: 'Necolo'
+          },
+          {
+            name: 'Jinjin Tao',
+            github: 'Francis-Tao-jinjin'
+          },
+          {
+            name: 'Taiming Man',
+            github: 'Eronana'
+          }
+        ]
+      }]
   }, {
     date: '2021-08-27',
     youtube: '',
