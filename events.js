@@ -525,7 +525,7 @@ export const events = [
       }]
   }, {
     date: '2021-08-27',
-    youtube: '',
+    youtube: '1KEZa9ObmiY',
     schedule: [
       {
         name: 'Thomas Steiner',
