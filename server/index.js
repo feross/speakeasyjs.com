@@ -1,13 +1,8 @@
 const {
   createServer
-  // createRollbar,
-  // getRollbarHandler
 } = require('feross')
 
-// const { rollbar } = require('../secret')
 const { host, port, isProd } = require('../config')
-
-// createRollbar({ accessToken: rollbar.accessToken })
 
 const next = require('next')
 
@@ -27,7 +22,6 @@ async function init () {
   })
 
   app.use(nextApp.getRequestHandler())
-  // app.use(getRollbarHandler())
 
   httpServer.listen(port, '127.0.0.1', (err) => {
     if (err) throw err
