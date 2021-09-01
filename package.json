@@ -57,7 +57,7 @@
   },
   "scripts": {
     "build": "next build",
-    "deploy": "npm run test && ./tools/trigger-deploy.sh",
+    "deploy": "npm run test && git push",
     "start": "NODE_ENV=production node .",
     "test": "standard",
     "watch": "DEBUG=speakeasyjs.com:* nodemon . --watch server"
