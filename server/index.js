@@ -2,7 +2,7 @@ const {
   createServer
 } = require('feross')
 
-const { host, port, isProd } = require('../config')
+const { host, port, isProd, bindAddress } = require('../config')
 
 const next = require('next')
 
@@ -23,7 +23,7 @@ async function init () {
 
   app.use(nextApp.getRequestHandler())
 
-  httpServer.listen(port, '127.0.0.1', (err) => {
+  httpServer.listen(port, bindAddress, (err) => {
     if (err) throw err
     console.log(`Listening on port ${port}`)
   })
