@@ -536,7 +536,7 @@ export const events = [
     ]
   }, {
     date: '2021-09-03',
-    youtube: '',
+    youtube: 'IMjI7nscwaU',
     schedule: [
       {
         name: 'Carlo Piovesan',
