@@ -14,7 +14,7 @@ const next = require('next')
 
 init()
 
-async function init () {
+function init () {
   const nextApp = next({ dev: !isProd })
 
   nextApp.prepare()

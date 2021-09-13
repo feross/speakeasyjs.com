@@ -547,7 +547,7 @@ export const events = [
     ]
   }, {
     date: '2021-09-10',
-    youtube: '',
+    youtube: '4ChS2Iq5xk8',
     schedule: [
       {
         name: 'Sage (Segun Adebayo)',
@@ -572,7 +572,7 @@ export const events = [
     youtube: '',
     schedule: [
       {
-        name: 'SpeakeasyJS season 1 is over. But come back next year for more SpeakeasyJS!',
+        name: '',
         title: '',
         twitter: '',
         github: ''
