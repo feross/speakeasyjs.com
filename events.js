@@ -558,7 +558,7 @@ export const events = [
     ]
   }, {
     date: '2021-09-17',
-    youtube: '',
+    youtube: 'avTdLjXYsbo',
     schedule: [
       {
         name: 'Matthew Zipkin',
